@@ -1,0 +1,374 @@
+/* ============================================================================
+   FRONTEND — INMERSIÓN DE LECTURA
+   Snippet para Obsidian. Pensado sobre el tema Catppuccin (sabor Mocha, oscuro).
+   Objetivo: que apetezca leer. Lectura cómoda tipo "Reader" de Firefox,
+   alto contraste en el código, cada lenguaje con su personalidad, headers y
+   tablas vistosos, callouts bonitos.
+   Paleta Catppuccin Mocha cableada en variables --fi-* (robusto ante cualquier
+   versión del tema). Si usas un sabor claro, ajusta el bloque :root.
+   ============================================================================ */
+
+:root {
+  /* --- Catppuccin Mocha --- */
+  --fi-crust:    #11111b;
+  --fi-mantle:   #181825;
+  --fi-base:     #1e1e2e;
+  --fi-surface0: #313244;
+  --fi-surface1: #45475a;
+  --fi-surface2: #585b70;
+  --fi-overlay0: #6c7086;
+  --fi-overlay1: #7f849c;
+  --fi-subtext0: #a6adc8;
+  --fi-subtext1: #bac2de;
+  --fi-text:     #cdd6f4;
+
+  --fi-rosewater:#f5e0dc;
+  --fi-flamingo: #f2cdcd;
+  --fi-pink:     #f5c2e7;
+  --fi-mauve:    #cba6f7;
+  --fi-red:      #f38ba8;
+  --fi-maroon:   #eba0ac;
+  --fi-peach:    #fab387;
+  --fi-yellow:   #f9e2af;
+  --fi-green:    #a6e3a1;
+  --fi-teal:     #94e2d5;
+  --fi-sky:      #89dceb;
+  --fi-sapphire: #74c7ec;
+  --fi-blue:     #89b4fa;
+  --fi-lavender: #b4befe;
+}
+
+/* ===========================================================================
+   1. LECTURA — tipografía cómoda e inmersiva (inspiración Reader de Firefox)
+   =========================================================================== */
+.markdown-preview-view,
+.markdown-rendered {
+  --line-height-normal: 1.75;
+  font-size: 1.02em;
+  letter-spacing: 0.1px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: var(--fi-text);
+}
+
+.markdown-rendered p {
+  margin-block: 0.9em;
+  line-height: 1.75;
+}
+
+/* primer párrafo bajo un H1: ligera entradilla */
+.markdown-rendered h1 + p {
+  font-size: 1.06em;
+  color: var(--fi-subtext1);
+}
+
+/* selección de texto con tinte lavanda */
+.markdown-rendered ::selection {
+  background: color-mix(in srgb, var(--fi-lavender) 35%, transparent);
+}
+
+/* ===========================================================================
+   2. HEADERS — cada nivel con su color y un acento que los hace vistosos
+   =========================================================================== */
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-rendered h4,
+.markdown-rendered h5,
+.markdown-rendered h6 {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  line-height: 1.3;
+}
+
+/* H1 — título con subrayado en gradiente */
+.markdown-rendered h1 {
+  font-size: 2.1em;
+  color: var(--fi-mauve);
+  margin-block: 0.6em 0.5em;
+  padding-bottom: 0.25em;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(90deg, var(--fi-mauve), var(--fi-blue), transparent) 1;
+}
+
+/* H2 — barra lateral + borde inferior suave */
+.markdown-rendered h2 {
+  font-size: 1.6em;
+  color: var(--fi-blue);
+  padding: 0.1em 0 0.2em 0.5em;
+  margin-top: 1.4em;
+  border-left: 5px solid var(--fi-blue);
+  border-bottom: 1px solid color-mix(in srgb, var(--fi-blue) 30%, transparent);
+}
+
+.markdown-rendered h3 {
+  font-size: 1.32em;
+  color: var(--fi-green);
+  padding-left: 0.45em;
+  border-left: 4px solid var(--fi-green);
+}
+
+.markdown-rendered h4 {
+  font-size: 1.14em;
+  color: var(--fi-peach);
+}
+.markdown-rendered h4::before { content: "▸ "; color: var(--fi-peach); }
+
+.markdown-rendered h5 { font-size: 1.02em; color: var(--fi-yellow); text-transform: uppercase; letter-spacing: 1px; }
+.markdown-rendered h6 { font-size: 0.95em; color: var(--fi-teal); font-style: italic; }
+
+/* ===========================================================================
+   3. CÓDIGO INLINE — alto contraste letra/fondo, separado del texto normal
+   =========================================================================== */
+.markdown-rendered :not(pre) > code {
+  background: var(--fi-crust);
+  color: var(--fi-peach);
+  font-weight: 600;
+  padding: 0.12em 0.42em;
+  border-radius: 6px;
+  border: 1px solid var(--fi-surface1);
+  font-size: 0.88em;
+}
+
+/* ===========================================================================
+   4. BLOQUES DE CÓDIGO — fondo profundo, alto contraste, y PERSONALIDAD por
+      lenguaje (acento lateral + etiqueta). Usa :has() (Obsidian moderno).
+   =========================================================================== */
+.markdown-rendered pre {
+  position: relative;
+  background: var(--fi-crust) !important;
+  border: 1px solid var(--fi-surface1);
+  border-left: 5px solid var(--fi-lavender);   /* acento por defecto */
+  border-radius: 10px;
+  padding: 1.05em 1.1em 1em;
+  margin-block: 1.1em;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  overflow: auto;
+}
+
+.markdown-rendered pre > code {
+  background: transparent !important;
+  color: var(--fi-text);
+  font-size: 0.9em;
+  line-height: 1.6;
+  text-shadow: none;
+}
+
+/* etiqueta de lenguaje (esquina sup. derecha, deja sitio al botón de copiar) */
+.markdown-rendered pre[class*="language-"]::after,
+.markdown-rendered pre:has(> code[class*="language-"])::after {
+  position: absolute;
+  top: 0;
+  right: 2.6em;
+  font-size: 0.66em;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  padding: 0.15em 0.6em;
+  border-radius: 0 0 7px 7px;
+  background: var(--fi-lavender);
+  color: var(--fi-crust);
+  text-transform: uppercase;
+}
+
+/* --- personalidades por lenguaje --- */
+/* JavaScript — amarillo */
+.markdown-rendered pre:has(> code.language-js),
+.markdown-rendered pre:has(> code.language-javascript) { border-left-color: var(--fi-yellow); }
+.markdown-rendered pre:has(> code.language-js)::after,
+.markdown-rendered pre:has(> code.language-javascript)::after { content: "JS"; background: var(--fi-yellow); }
+
+/* TypeScript — azul */
+.markdown-rendered pre:has(> code.language-ts),
+.markdown-rendered pre:has(> code.language-typescript) { border-left-color: var(--fi-blue); }
+.markdown-rendered pre:has(> code.language-ts)::after,
+.markdown-rendered pre:has(> code.language-typescript)::after { content: "TS"; background: var(--fi-blue); }
+
+/* CSS — cielo */
+.markdown-rendered pre:has(> code.language-css) { border-left-color: var(--fi-sky); }
+.markdown-rendered pre:has(> code.language-css)::after { content: "CSS"; background: var(--fi-sky); }
+
+/* HTML — durazno */
+.markdown-rendered pre:has(> code.language-html),
+.markdown-rendered pre:has(> code.language-xml) { border-left-color: var(--fi-peach); }
+.markdown-rendered pre:has(> code.language-html)::after,
+.markdown-rendered pre:has(> code.language-xml)::after { content: "HTML"; background: var(--fi-peach); }
+
+/* Python — verde */
+.markdown-rendered pre:has(> code.language-python),
+.markdown-rendered pre:has(> code.language-py) { border-left-color: var(--fi-green); }
+.markdown-rendered pre:has(> code.language-python)::after,
+.markdown-rendered pre:has(> code.language-py)::after { content: "PY"; background: var(--fi-green); }
+
+/* Bash/Shell — teal */
+.markdown-rendered pre:has(> code.language-bash),
+.markdown-rendered pre:has(> code.language-sh),
+.markdown-rendered pre:has(> code.language-shell) { border-left-color: var(--fi-teal); }
+.markdown-rendered pre:has(> code.language-bash)::after,
+.markdown-rendered pre:has(> code.language-sh)::after,
+.markdown-rendered pre:has(> code.language-shell)::after { content: "SH"; background: var(--fi-teal); }
+
+/* JSON — malva */
+.markdown-rendered pre:has(> code.language-json) { border-left-color: var(--fi-mauve); }
+.markdown-rendered pre:has(> code.language-json)::after { content: "JSON"; background: var(--fi-mauve); }
+
+/* text / salida — overlay (gris) para distinguir "salida real" del código */
+.markdown-rendered pre:has(> code.language-text) {
+  border-left-color: var(--fi-overlay0);
+  background: var(--fi-mantle) !important;
+}
+.markdown-rendered pre:has(> code.language-text)::after { content: "SALIDA"; background: var(--fi-overlay0); color: var(--fi-text); }
+
+/* ===========================================================================
+   5. SYNTAX HIGHLIGHT — tokens más contrastados sobre el fondo profundo
+   =========================================================================== */
+.markdown-rendered .token.comment,
+.markdown-rendered .token.prolog        { color: var(--fi-overlay1); font-style: italic; }
+.markdown-rendered .token.keyword,
+.markdown-rendered .token.rule          { color: var(--fi-mauve); font-weight: 700; }
+.markdown-rendered .token.string,
+.markdown-rendered .token.attr-value    { color: var(--fi-green); }
+.markdown-rendered .token.function      { color: var(--fi-blue); }
+.markdown-rendered .token.number,
+.markdown-rendered .token.boolean       { color: var(--fi-peach); }
+.markdown-rendered .token.tag,
+.markdown-rendered .token.selector      { color: var(--fi-red); }
+.markdown-rendered .token.attr-name,
+.markdown-rendered .token.property      { color: var(--fi-yellow); }
+.markdown-rendered .token.operator,
+.markdown-rendered .token.punctuation   { color: var(--fi-sky); }
+
+/* ===========================================================================
+   6. TABLAS — vistosas: cabecera en gradiente, filas cebra, hover, redondeo
+   =========================================================================== */
+.markdown-rendered table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin-block: 1.2em;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--fi-surface1);
+}
+
+.markdown-rendered thead th {
+  background: linear-gradient(135deg, var(--fi-mauve), var(--fi-blue));
+  color: var(--fi-crust);
+  font-weight: 800;
+  letter-spacing: 0.4px;
+  padding: 0.7em 1em;
+  border: none;
+  text-align: left;
+}
+
+.markdown-rendered tbody td {
+  padding: 0.6em 1em;
+  border: none;
+  border-top: 1px solid var(--fi-surface0);
+  color: var(--fi-subtext1);
+}
+
+.markdown-rendered tbody tr:nth-child(odd)  { background: color-mix(in srgb, var(--fi-surface0) 35%, transparent); }
+.markdown-rendered tbody tr:nth-child(even) { background: transparent; }
+.markdown-rendered tbody tr:hover           { background: color-mix(in srgb, var(--fi-lavender) 14%, transparent); }
+
+/* código dentro de tabla, un poco más pequeño */
+.markdown-rendered td code { font-size: 0.82em; }
+
+/* ===========================================================================
+   7. CALLOUTS — bonitos: redondeo amplio, acento lateral, tinte suave
+   =========================================================================== */
+.markdown-rendered .callout {
+  border-radius: 12px;
+  border: 1px solid color-mix(in srgb, var(--callout-color) 35%, transparent);
+  border-left: 5px solid rgb(var(--callout-color));
+  background: color-mix(in srgb, rgb(var(--callout-color)) 10%, var(--fi-base));
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.22);
+  margin-block: 1.1em;
+  padding: 0.2em 0.4em;
+}
+
+.markdown-rendered .callout-title {
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  padding: 0.6em 0.8em;
+}
+
+.markdown-rendered .callout-icon svg { stroke-width: 2.4px; }
+
+/* mapeo de color para los callouts del estándar */
+.markdown-rendered .callout[data-callout="definicion"] { --callout-color: 203, 166, 247; } /* mauve */
+.markdown-rendered .callout[data-callout="ejemplo"]    { --callout-color: 166, 227, 161; } /* green */
+.markdown-rendered .callout[data-callout="info"]       { --callout-color: 137, 180, 250; } /* blue  */
+.markdown-rendered .callout[data-callout="tip"]        { --callout-color: 148, 226, 213; } /* teal  */
+.markdown-rendered .callout[data-callout="warning"]    { --callout-color: 250, 179, 135; } /* peach */
+.markdown-rendered .callout[data-callout="nota"]       { --callout-color: 180, 190, 254; } /* lavender */
+.markdown-rendered .callout[data-callout="regla"]      { --callout-color: 245, 194, 231; } /* pink  */
+.markdown-rendered .callout[data-callout="referencia"] { --callout-color: 116, 199, 236; } /* sapphire */
+
+/* ===========================================================================
+   8. CITAS, ENLACES, LISTAS, REGLA HORIZONTAL
+   =========================================================================== */
+.markdown-rendered blockquote {
+  border-left: 4px solid var(--fi-pink);
+  background: color-mix(in srgb, var(--fi-pink) 8%, transparent);
+  border-radius: 0 10px 10px 0;
+  padding: 0.4em 1em;
+  color: var(--fi-subtext1);
+  font-style: italic;
+}
+
+/* wikilinks: subrayado punteado y color lavanda */
+.markdown-rendered a.internal-link {
+  color: var(--fi-lavender);
+  text-decoration: none;
+  border-bottom: 1px dashed color-mix(in srgb, var(--fi-lavender) 60%, transparent);
+  transition: background 120ms ease, color 120ms ease;
+}
+.markdown-rendered a.internal-link:hover {
+  background: color-mix(in srgb, var(--fi-lavender) 18%, transparent);
+  border-radius: 4px;
+  border-bottom-color: var(--fi-lavender);
+}
+
+/* enlaces externos en azul cielo */
+.markdown-rendered a.external-link { color: var(--fi-sky); }
+
+/* viñetas con marcador de color */
+.markdown-rendered ul > li::marker { color: var(--fi-mauve); }
+.markdown-rendered ol > li::marker { color: var(--fi-blue); font-weight: 700; }
+
+/* regla horizontal en gradiente */
+.markdown-rendered hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--fi-surface2), transparent);
+  margin-block: 1.8em;
+}
+
+/* negrita y cursiva con un toque de color para resaltar en la lectura */
+.markdown-rendered strong { color: var(--fi-rosewater); font-weight: 800; }
+.markdown-rendered em     { color: var(--fi-flamingo); }
+
+/* ===========================================================================
+   9. LIVE PREVIEW — que el editor (no solo la lectura) también respire
+   =========================================================================== */
+.markdown-source-view.mod-cm6 .cm-line { line-height: 1.7; }
+
+.markdown-source-view.mod-cm6 .HyperMD-codeblock {
+  background: var(--fi-crust);
+}
+.markdown-source-view.mod-cm6 .HyperMD-codeblock-begin {
+  border-radius: 10px 10px 0 0;
+  border-top: 1px solid var(--fi-surface1);
+}
+.markdown-source-view.mod-cm6 .HyperMD-codeblock-end {
+  border-radius: 0 0 10px 10px;
+  border-bottom: 1px solid var(--fi-surface1);
+}
+.markdown-source-view.mod-cm6 .cm-inline-code {
+  background: var(--fi-crust);
+  color: var(--fi-peach);
+  border-radius: 5px;
+  padding: 0.05em 0.35em;
+}

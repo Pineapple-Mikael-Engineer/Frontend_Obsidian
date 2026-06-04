@@ -1,0 +1,12 @@
+# Obsidian: caché y estado de UI (no se versiona)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Temporales de exportación (PDF/SVG generados por skills)
+*.tmp
