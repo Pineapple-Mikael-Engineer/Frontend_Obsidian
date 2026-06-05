@@ -41,12 +41,14 @@ graph TD
   D --> V["crimson → valor"]
 ```
 
-| Pieza | Qué es | Nota |
-|-------|--------|------|
-| Selector | A qué elementos se aplica | [[01 Selector, Propiedad y Valor]] |
-| Declaración | Un par `propiedad: valor` | [[02 Declaración y Bloque]] |
-| Bloque | El `{ }` que agrupa declaraciones | [[02 Declaración y Bloque]] |
-| Regla | Selector + bloque, completa | [[03 Regla Completa]] |
+| Pieza | Qué es |
+|-------|--------|
+| Selector | A qué elementos se aplica |
+| Declaración | Un par `propiedad: valor` |
+| Bloque | El `{ }` que agrupa declaraciones |
+| Regla | Selector + bloque, completa |
+
+Detalle en [[01 Selector, Propiedad y Valor]], [[02 Declaración y Bloque]] y [[03 Regla Completa]].
 
 ## Mapa de la subsección
 

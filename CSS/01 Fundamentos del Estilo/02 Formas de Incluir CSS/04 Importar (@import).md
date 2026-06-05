@@ -31,7 +31,7 @@ body { font-family: system-ui; }
 | Posición | Debe ir **al principio** de la hoja, antes de cualquier regla de estilo |
 | Sintaxis | `@import "ruta";` o `@import url("ruta");` |
 | Condición | Admite media queries: `@import "movil.css" (max-width: 600px);` |
-| Capas | Puede importar a una `@layer` (ver [[02 Importar a Capas]]) |
+| Capas | Puede importar a una `@layer` (ver más abajo) |
 
 ## El problema de rendimiento
 

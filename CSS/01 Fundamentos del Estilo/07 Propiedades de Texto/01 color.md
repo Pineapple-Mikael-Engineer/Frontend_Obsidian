@@ -31,7 +31,7 @@ a { color: oklch(0.7 0.15 300); }
 | Valor inicial | Depende del navegador (normalmente negro) |
 | Hereda | **Sí** |
 | Animable | Sí (interpola entre colores) |
-| Acepta | Cualquier [[05 Colores/index | formato de color]] |
+| Acepta | Cualquier formato de color |
 
 ## color afecta a más que el texto
 
