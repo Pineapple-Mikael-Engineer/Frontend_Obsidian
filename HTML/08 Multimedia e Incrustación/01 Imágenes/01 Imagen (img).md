@@ -10,7 +10,7 @@ tags:
 elemento: img
 categoria: incrustado
 rol_implicito: img
-vacio: true
+vacio: false
 draft: false
 ---
 
