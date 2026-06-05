@@ -63,12 +63,15 @@ graph TD
 
 ## Las cuatro piezas
 
-| Pieza | Rol | ¿Visible? | Nota |
-|-------|-----|-----------|------|
-| `<!DOCTYPE html>` | Activa el modo estándar | No | [[01 Declaración DOCTYPE]] |
-| `<html>` | Nodo raíz; fija idioma y dirección | — | [[02 Elemento Raíz (html)]] |
-| `<head>` | Metadatos para navegador y buscadores | No (salvo `<title>`) | [[03 Cabecera (head)/index]] |
-| `<body>` | Contenido que ve y usa la persona | Sí | [[04 Cuerpo (body)]] |
+| Pieza | Rol | ¿Visible? |
+|-------|-----|-----------|
+| `<!DOCTYPE html>` | Activa el modo estándar | No |
+| `<html>` | Nodo raíz; fija idioma y dirección | — |
+| `<head>` | Metadatos para navegador y buscadores | No (salvo `<title>`) |
+| `<body>` | Contenido que ve y usa la persona | Sí |
+
+Cada pieza tiene su nota: [[01 Declaración DOCTYPE]], [[02 Elemento Raíz (html)]],
+[[03 Cabecera (head)/index | la cabecera `<head>`]] y [[04 Cuerpo (body)]].
 
 ## El principio rector: máquina vs. persona
 

@@ -42,14 +42,17 @@ draft: false
 
 El mismo `<link>` sirve para propósitos muy distintos. Conviene verlos juntos porque se confunden:
 
-| `rel` | Función | Nota |
-|-------|---------|------|
-| `stylesheet` | Hoja de estilos | esta nota |
-| `icon` | Favicon de la pestaña | [[10 Favicon (link rel icon)]] |
-| `canonical` | URL oficial de la página | [[11 Enlace Canónico (link rel canonical)]] |
-| `preload` | Descargar un recurso crítico cuanto antes | optimización |
-| `preconnect` | Abrir conexión anticipada a otro origen | optimización |
-| `alternate` | Versión alternativa (RSS, otro idioma) | feeds / i18n |
+| `rel` | Función |
+|-------|---------|
+| `stylesheet` | Hoja de estilos (esta nota) |
+| `icon` | Favicon de la pestaña |
+| `canonical` | URL oficial de la página |
+| `preload` | Descargar un recurso crítico cuanto antes |
+| `preconnect` | Abrir conexión anticipada a otro origen |
+| `alternate` | Versión alternativa (RSS, otro idioma) |
+
+El favicon se desarrolla en [[10 Favicon (link rel icon)]] y la URL oficial en
+[[11 Enlace Canónico (link rel canonical)]].
 
 ## Carga condicional con media
 

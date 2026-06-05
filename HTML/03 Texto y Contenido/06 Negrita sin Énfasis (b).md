@@ -30,7 +30,7 @@ draft: false
 | Caso | Elemento |
 |------|----------|
 | Resaltar palabras clave sin importancia | `<b>` |
-| Texto realmente importante / urgente | [[04 Énfasis Fuerte (strong) | `<strong>`]] |
+| Texto realmente importante / urgente | [[04 Énfasis Fuerte (strong) \| `<strong>`]] |
 | Cualquier negrita ligada a un estilo de marca | clase CSS con `font-weight` |
 
 > [!info] El último recurso semántico

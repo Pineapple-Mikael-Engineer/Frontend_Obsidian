@@ -52,18 +52,16 @@ graph TD
   HEAD --> BASE["base (URL base)"]
 ```
 
-| Elemento | Para qué | Nota |
-|----------|----------|------|
-| `<meta charset>` | Codificación de caracteres | [[01 Codificación de Caracteres (meta charset)]] |
-| `<meta viewport>` | Escala en móvil | [[02 Viewport (meta viewport)]] |
-| `<title>` | Título de la pestaña / buscador | [[03 Título del Documento (title)]] |
-| `<meta name="description">` | Resumen para buscadores | [[04 Descripción (meta description)]] |
-| `<meta name="author">` | Autor del documento | [[06 Autor (meta author)]] |
-| `<link rel="stylesheet">` | Hoja de estilos externa | [[07 Enlace a CSS (link)]] |
-| `<style>` | CSS embebido | [[08 Estilos Internos (style)]] |
-| `<script>` | JavaScript | [[09 Scripts (script)]] |
-| `<link rel="icon">` | Favicon | [[10 Favicon (link rel icon)]] |
-| `<link rel="canonical">` | URL oficial | [[11 Enlace Canónico (link rel canonical)]] |
+- [[01 Codificación de Caracteres (meta charset)]] — `<meta charset>`: codificación de caracteres.
+- [[02 Viewport (meta viewport)]] — `<meta viewport>`: escala en móvil.
+- [[03 Título del Documento (title)]] — `<title>`: título de la pestaña y del buscador.
+- [[04 Descripción (meta description)]] — `<meta name="description">`: resumen para buscadores.
+- [[06 Autor (meta author)]] — `<meta name="author">`: autor del documento.
+- [[07 Enlace a CSS (link)]] — `<link rel="stylesheet">`: hoja de estilos externa.
+- [[08 Estilos Internos (style)]] — `<style>`: CSS embebido.
+- [[09 Scripts (script)]] — `<script>`: JavaScript.
+- [[10 Favicon (link rel icon)]] — `<link rel="icon">`: favicon.
+- [[11 Enlace Canónico (link rel canonical)]] — `<link rel="canonical">`: URL oficial.
 | `<base>` | URL base para enlaces relativos | — |
 
 ## El orden importa para el rendimiento

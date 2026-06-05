@@ -29,10 +29,10 @@ distinto de *"no dije que tú tuvieras la **culpa**"* (fue otra cosa). Esa es la
 
 ## em vs. i
 
-| Elemento | Significado |
-|----------|-------------|
-| `<em>` | Énfasis hablado, cambia el matiz de la frase |
-| [[07 Cursiva sin Énfasis (i) | `<i>`]] | Cursiva por convención: nombres científicos, términos extranjeros, títulos |
+| Elemento                     | Significado                                  |                                                                            |
+| ---------------------------- | -------------------------------------------- | -------------------------------------------------------------------------- |
+| `<em>`                       | Énfasis hablado, cambia el matiz de la frase |                                                                            |
+| [[07 Cursiva sin Énfasis (i) \| `<i>`]]                                      | Cursiva por convención: nombres científicos, términos extranjeros, títulos |
 
 > [!info] Anidar aumenta el énfasis
 > `<em>` dentro de `<em>` incrementa el grado de énfasis. Igual que con

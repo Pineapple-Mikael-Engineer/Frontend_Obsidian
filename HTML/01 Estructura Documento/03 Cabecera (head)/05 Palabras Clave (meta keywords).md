@@ -38,10 +38,13 @@ El esfuerzo de SEO va a señales que sí importan y que son difíciles de falsea
 
 | En vez de keywords | Usar |
 |--------------------|------|
-| Listar términos | [[03 Título del Documento (title) | `<title>`]] bien redactado |
-| Repetir palabras clave | [[04 Descripción (meta description) | `description`]] atractiva |
-| Meta tags | Contenido real, encabezados [[01 Encabezados Jerárquicos (h1-h6) | `<h1>`–`<h6>`]] |
-| — | Datos estructurados [[04 Datos Estructurados (JSON-LD)/index | JSON-LD]] |
+| Listar términos | Un `<title>` bien redactado |
+| Repetir palabras clave | Una `description` atractiva |
+| Meta tags | Contenido real y encabezados `<h1>`–`<h6>` |
+| — | Datos estructurados (JSON-LD) |
+
+El detalle de cada alternativa está en [[03 Título del Documento (title)]],
+[[04 Descripción (meta description)]] y [[04 Datos Estructurados (JSON-LD)/index | los datos estructurados]].
 
 > [!warning] Inofensiva pero inútil
 > Rellenarla no penaliza en Google (simplemente la ignora), pero tampoco aporta nada. El tiempo
