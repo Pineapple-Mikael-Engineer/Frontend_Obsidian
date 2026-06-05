@@ -17,8 +17,8 @@ draft: false
 
 > [!definicion]
 > `<main>` envuelve el **contenido central y único** de la página: lo que la distingue del resto del
-> sitio. Excluye lo que se repite en todas las páginas (cabecera, navegación, pie). Debe haber
-> **uno solo** visible por documento.
+> sitio. Excluye todo lo que se repite en cada página (cabecera, navegación global, pie). Debe haber
+> **un solo `<main>` visible** por documento.
 
 ```html
 <body>
@@ -32,22 +32,60 @@ draft: false
 </body>
 ```
 
+## Qué entra y qué no
+
+La prueba es: *¿esto cambia de una página a otra del sitio?* Si se repite igual en todas, no es
+contenido principal.
+
+| Dentro de `<main>` | Fuera de `<main>` |
+|--------------------|-------------------|
+| El artículo, el formulario, el listado | El logo y el menú global (`<header>`, `<nav>`) |
+| El `<h1>` de la página | El pie con enlaces legales (`<footer>`) |
+| Contenido único de esta vista | Banners de cookies, navegación repetida |
+
 ## Reglas
 
 | Regla | Razón |
 |-------|-------|
-| Uno solo por página | El "contenido principal" es único por definición |
-| No anidar en `<article>`, `<aside>`, `<header>`, `<footer>`, `<nav>` | `<main>` es de nivel superior |
-| No incluir contenido repetido entre páginas | Logo, menú y pie van fuera |
+| Uno solo visible por página | El "contenido principal" es único por definición |
+| No anidarlo en `article`, `aside`, `header`, `footer`, `nav` | `<main>` es de nivel superior |
+| Puede haber varios si todos menos uno tienen `hidden` | Útil en SPAs que precargan vistas ocultas |
 
-> [!info] El destino del "saltar al contenido"
-> `<main>` expone el landmark "main". Los lectores de pantalla ofrecen una tecla rápida para saltar
-> directamente a él, y los [[03 Skip Links | skip links]] suelen apuntar aquí (`<a href="#main">`).
-> Es el ancla de accesibilidad más útil de la página.
+## El destino del "saltar al contenido"
 
-> [!warning] No es un contenedor de estilo
-> `<main>` no debe elegirse por conveniencia de maquetación. Su valor es semántico: "aquí empieza lo
-> importante". Para agrupar por estilo se usa un [[01 Identificación (id, class) | `<div>`]].
+`<main>` es el ancla de accesibilidad más útil de la página. Dos mecanismos lo aprovechan:
+
+1. **Skip link** — un enlace al inicio del `<body>` que salta la navegación repetida:
+   ```html
+   <a href="#contenido" class="skip-link">Saltar al contenido</a>
+   …
+   <main id="contenido">…</main>
+   ```
+2. **Tecla rápida del lector de pantalla** para ir directo al landmark "main".
+
+Ambos evitan que un usuario de teclado o lector tenga que recorrer el menú entero en cada página.
+
+## Accesibilidad
+
+> [!info] Landmark main
+> `<main>` expone el landmark "main", del que solo debe haber uno. Es donde apuntan los
+> [[03 Skip Links | skip links]] y la navegación por regiones. Reproducir esto con
+> `<div role="main">` es posible pero innecesario y más frágil: el elemento nativo ya trae el rol.
+
+## Buenas prácticas
+
+> [!tip] Recomendaciones
+> - Coloca `<main>` como hijo directo del `<body>`, hermano de `<header>`/`<footer>`.
+> - Dale un `id` (`id="contenido"`) para que el skip link pueda apuntarlo.
+> - Pon el `<h1>` de la página dentro del `<main>`.
+
+## Errores comunes
+
+> [!warning] Trampas
+> - **Varios `<main>` visibles**: invalida el documento y confunde a la asistencia.
+> - **Usar `<main>` como contenedor de maquetación**: no se elige por conveniencia de CSS; para
+>   agrupar por estilo se usa un `<div>`. Su valor es el significado "aquí empieza lo importante".
+> - **Meter la navegación repetida dentro**: el menú global va fuera, en `<header>`/`<nav>`.
 
 ## Notas relacionadas
 

@@ -16,10 +16,9 @@ draft: false
 # Pie de Sección (footer)
 
 > [!definicion]
-> `<footer>` agrupa el contenido de **cierre** de su contexto: copyright, enlaces legales y de
-> contacto si es de la página; autor, fecha o referencias si es de un
-> [[06 Artículos (article) | `<article>`]]. Es la contraparte de
-> [[08 Cabecera de Sección (header) | `<header>`]].
+> `<footer>` agrupa el contenido de **cierre** de su contexto: como pie de página, el copyright, los
+> enlaces legales y el contacto; como pie de un `<article>`, el autor, la fecha, las etiquetas o las
+> referencias. Es la contraparte simétrica de `<header>`.
 
 ```html
 <footer>
@@ -31,24 +30,58 @@ draft: false
 </footer>
 ```
 
-## Contenido típico
+## Dos roles según el contexto
 
-| Contexto | Contenido |
-|----------|-----------|
-| Pie de página (`<body>`) | Copyright, enlaces legales, redes sociales, contacto |
-| Pie de artículo | Autor, fecha, etiquetas, referencias |
+Igual que [[08 Cabecera de Sección (header) | `<header>`]], su significado depende de su ubicación:
 
-> [!info] Landmark "contentinfo"
-> `<footer>` se expone como landmark `contentinfo` **solo** cuando es hijo directo del `<body>`.
+| Ubicación | Contenido típico | ¿Landmark? |
+|-----------|------------------|------------|
+| Hijo directo del `<body>` | Copyright, legal, redes, contacto | Sí, `contentinfo` |
+| Dentro de `<article>` / `<section>` | Autor, fecha, etiquetas, referencias | No, pie local |
+
+## Qué suele contener
+
+- **Pie de página**: aviso de copyright, enlaces a privacidad/términos, mapa del sitio, redes
+  sociales, datos de contacto.
+- **Pie de artículo**: autor, fecha de publicación, etiquetas, "artículos relacionados", contador de
+  comentarios.
+
+El contacto del autor o de la empresa se marca con [[10 Dirección (address) | `<address>`]], no con
+un `<p>` cualquiera:
+
+```html
+<footer>
+  <address>
+    Contacto: <a href="mailto:hola@sitio.com">hola@sitio.com</a>
+  </address>
+  <p><small>&copy; 2026 Mi Sitio.</small></p>
+</footer>
+```
+
+## Accesibilidad
+
+> [!info] Landmark contentinfo
+> `<footer>` se expone como landmark "contentinfo" **solo** cuando es hijo directo del `<body>`.
 > Anidado en un `<article>` o `<section>`, es un pie local sin rol de landmark, igual que el
-> `<header>`.
+> `<header>`. Debe haber un único "contentinfo" por página (el pie principal del sitio).
 
-> [!tip] El contacto va en address
-> Los datos de contacto dentro de un `<footer>` se marcan con
-> [[10 Dirección (address) | `<address>`]], no con un `<p>` cualquiera. Así el navegador y los
-> lectores los reconocen como información de contacto.
+## Buenas prácticas
+
+> [!tip] Recomendaciones
+> - Un `<footer>` de página (contentinfo) por documento, hijo directo del `<body>`.
+> - Envuelve los datos de contacto en `<address>`.
+> - Los enlaces legales pueden ir en un `<nav aria-label="Legal">`, aunque no es obligatorio.
+> - Reutiliza `<footer>` dentro de cada `<article>` para sus metadatos de cierre.
+
+## Errores comunes
+
+> [!warning] Trampas
+> - **Confundir el alcance**: un `<footer>` dentro de un `<article>` es del artículo, no de la
+>   página; no genera "contentinfo".
+> - **Datos de contacto sin `<address>`**: pierde la semántica de "información de contacto".
+> - **Varios pies de página banner/contentinfo**: solo uno por documento a nivel de `<body>`.
 
 ## Notas relacionadas
 
 - [[08 Cabecera de Sección (header)]] — su contraparte de apertura.
-- [[10 Dirección (address)]] — para los datos de contacto del pie.
+- [[10 Dirección (address)]] — para los datos de contacto dentro del pie.
