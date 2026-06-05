@@ -6,7 +6,22 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#css  ",
+      "color": {
+        "a": 1,
+        "rgb": 13081842
+      }
+    },
+    {
+      "query": "tag:#html  ",
+      "color": {
+        "a": 1,
+        "rgb": 8694200
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,

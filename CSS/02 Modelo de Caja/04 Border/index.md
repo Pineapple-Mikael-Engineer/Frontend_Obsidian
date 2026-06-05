@@ -23,14 +23,16 @@ draft: false
 
 ## Las propiedades del borde
 
-| Aspecto | Propiedad | Nota |
-|---------|-----------|------|
-| Grosor | `border-width` | [[01 border-width]] |
-| Estilo | `border-style` | [[02 border-style]] |
-| Color | `border-color` | [[03 border-color]] |
-| Atajo | `border` | [[04 Shorthand border]] |
-| Esquinas | `border-radius` | [[05 border-radius]] |
-| Imagen | `border-image` | [[06 border-image]] |
+| Aspecto | Propiedad |
+|---------|-----------|
+| Grosor | `border-width` |
+| Estilo | `border-style` |
+| Color | `border-color` |
+| Atajo | `border` |
+| Esquinas | `border-radius` |
+| Imagen | `border-image` |
+
+Cada una en su nota: [[01 border-width]], [[02 border-style]], [[03 border-color]], [[04 Shorthand border]], [[05 border-radius]] y [[06 border-image]].
 
 ## El estilo es obligatorio para que se vea
 
