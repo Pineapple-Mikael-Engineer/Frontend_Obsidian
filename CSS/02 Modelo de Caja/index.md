@@ -33,14 +33,14 @@ graph TD
   P --> C["contenido (texto, imagen…)"]
 ```
 
-| Capa | Qué es | Nota |
-|------|--------|------|
-| Contenido | El texto, imagen o hijos | [[01 width y height]] |
-| Padding | Espacio entre el contenido y el borde | [[03 Padding]] |
-| Border | La línea del borde | [[04 Border/index]] |
-| Margin | Espacio exterior, separa de otros elementos | [[05 Margin]] |
+| Capa | Qué es |
+|------|--------|
+| Contenido | El texto, imagen o hijos |
+| Padding | Espacio entre el contenido y el borde |
+| Border | La línea del borde |
+| Margin | Espacio exterior, separa de otros elementos |
 
-El detalle de cada capa, en [[01 Partes del Modelo de Caja]].
+El detalle de cada capa, en [[01 Partes del Modelo de Caja]]; las dimensiones en [[01 width y height]], el relleno en [[03 Padding]], el borde en [[04 Border/index]] y el margen en [[05 Margin]].
 
 ## La pregunta clave: ¿qué incluye width?
 
