@@ -25,14 +25,16 @@ draft: false
 
 El mismo elemento `<a>` enlaza a destinos muy distintos según el valor de `href`:
 
-| Destino | `href` empieza por | Nota |
-|---------|--------------------|------|
-| Otra página (absoluta) | `https://`, `//` | [[01 Enlaces (a)]] |
-| Página del propio sitio (relativa) | `/ruta`, `pagina.html` | [[01 Enlaces (a)]] |
-| Sección de la página | `#id` | [[02 Anclas Internas (id)]] |
-| Correo electrónico | `mailto:` | [[03 Enlaces a Correo (mailto)]] |
-| Teléfono | `tel:` | [[04 Enlaces Telefónicos (tel)]] |
-| Descarga | cualquiera + `download` | [[01 Enlaces (a)]] |
+| Destino | `href` empieza por |
+|---------|--------------------|
+| Otra página (absoluta) | `https://`, `//` |
+| Página del propio sitio (relativa) | `/ruta`, `pagina.html` |
+| Sección de la página | `#id` |
+| Correo electrónico | `mailto:` |
+| Teléfono | `tel:` |
+| Descarga | cualquiera + `download` |
+
+Cada destino tiene su nota: [[01 Enlaces (a)]] (páginas y descargas), [[02 Anclas Internas (id)]] (secciones), [[03 Enlaces a Correo (mailto)]] y [[04 Enlaces Telefónicos (tel)]].
 
 ## Mapa de la sección
 
