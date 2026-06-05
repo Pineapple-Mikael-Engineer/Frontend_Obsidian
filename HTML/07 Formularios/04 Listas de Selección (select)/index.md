@@ -27,11 +27,13 @@ draft: false
 
 ## Las tres piezas
 
-| Elemento | Función | Nota |
-|----------|---------|------|
-| `<select>` | El control desplegable | [[01 Selección (select)]] |
-| `<option>` | Cada opción elegible | [[02 Opciones (option)]] |
-| `<optgroup>` | Agrupar opciones bajo un título | [[03 Agrupación de Opciones (optgroup)]] |
+| Elemento | Función |
+|----------|---------|
+| `<select>` | El control desplegable |
+| `<option>` | Cada opción elegible |
+| `<optgroup>` | Agrupar opciones bajo un título |
+
+Cada uno en su nota: [[01 Selección (select)]], [[02 Opciones (option)]] y [[03 Agrupación de Opciones (optgroup)]].
 
 ## Cuándo un select y cuándo radios
 
