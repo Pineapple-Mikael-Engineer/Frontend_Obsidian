@@ -39,7 +39,7 @@ draft: false
 
 | Uso | Aceptable porque… |
 |-----|-------------------|
-| Forma larga de una [[15 Abreviaturas (abbr) | abreviatura]] | Es un apoyo, no el único canal |
+| Forma larga de una abreviatura | Es un apoyo, no el único canal |
 | Aclaración secundaria de un enlace | Información complementaria, no crítica |
 | `title` en un `<iframe>` | Aquí **sí** es obligatorio y accesible (nombre del marco) |
 

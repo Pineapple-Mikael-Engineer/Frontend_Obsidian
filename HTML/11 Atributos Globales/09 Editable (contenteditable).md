@@ -54,7 +54,7 @@ El caso principal es construir **editores enriquecidos**: el usuario escribe y a
 
 ## contenteditable vs. textarea
 
-| | `contenteditable` | [[03 Área de Texto (textarea) | `<textarea>`]] |
+| | `contenteditable` | `<textarea>` |
 |--|-------------------|-----------|
 | Formato enriquecido | Sí (HTML) | No (solo texto plano) |
 | Complejidad | Alta | Baja |
