@@ -23,12 +23,14 @@ h2 ~ p      { }   /* todo p hermano posterior de h2 */
 
 ## Los cuatro combinadores
 
-| Combinador | Símbolo | Relación | Nota |
-|------------|---------|----------|------|
-| Descendente | (espacio) | Cualquier nivel de anidación dentro | [[01 Descendente]] |
-| Hijo directo | `>` | Hijo inmediato (un nivel) | [[02 Hijo Directo (>)]] |
-| Hermano adyacente | `+` | El hermano inmediatamente siguiente | [[03 Hermano Adyacente (+)]] |
-| Hermano general | `~` | Cualquier hermano posterior | [[04 Hermano General (~)]] |
+| Combinador | Símbolo | Relación |
+|------------|---------|----------|
+| Descendente | (espacio) | Cualquier nivel de anidación dentro |
+| Hijo directo | `>` | Hijo inmediato (un nivel) |
+| Hermano adyacente | `+` | El hermano inmediatamente siguiente |
+| Hermano general | `~` | Cualquier hermano posterior |
+
+Cada uno en su nota: [[01 Descendente]], [[02 Hijo Directo (>)]], [[03 Hermano Adyacente (+)]] y [[04 Hermano General (~)]].
 
 ## Descendente vs. hijo directo
 

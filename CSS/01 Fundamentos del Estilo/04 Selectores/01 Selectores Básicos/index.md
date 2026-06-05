@@ -23,13 +23,15 @@ p          { }   /* tipo: todos los <p> */
 
 ## Los cinco básicos
 
-| Selector | Sintaxis | Apunta a | Especificidad | Nota |
-|----------|----------|----------|---------------|------|
-| Tipo | `p` | Todos los elementos de ese tipo | Baja | [[01 Selector de Tipo]] |
-| Clase | `.nombre` | Elementos con esa clase | Media | [[02 Selector de Clase]] |
-| Id | `#nombre` | El elemento con ese id | Alta | [[03 Selector de ID]] |
-| Universal | `*` | Todos los elementos | Ninguna | [[04 Selector Universal]] |
-| Agrupación | `a, b, c` | Varios a la vez | (la de cada uno) | [[05 Agrupación de Selectores]] |
+| Selector | Sintaxis | Apunta a | Especificidad |
+|----------|----------|----------|---------------|
+| Tipo | `p` | Todos los elementos de ese tipo | Baja |
+| Clase | `.nombre` | Elementos con esa clase | Media |
+| Id | `#nombre` | El elemento con ese id | Alta |
+| Universal | `*` | Todos los elementos | Ninguna |
+| Agrupación | `a, b, c` | Varios a la vez | (la de cada uno) |
+
+Cada uno en su nota: [[01 Selector de Tipo]], [[02 Selector de Clase]], [[03 Selector de ID]], [[04 Selector Universal]] y [[05 Agrupación de Selectores]].
 
 ## El más usado: la clase
 
