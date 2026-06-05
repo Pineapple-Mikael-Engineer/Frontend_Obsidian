@@ -24,15 +24,17 @@ color: oklch(0.8 0.12 300);      /* OKLCH (amplio gamut) */
 
 ## Los formatos, de viejo a nuevo
 
-| Formato | Sintaxis | Fuerte en | Nota |
-|---------|----------|-----------|------|
-| Palabras clave | `red`, `tomato` | Rapidez, prototipo | [[01 Palabras Clave de Color]] |
-| Hexadecimal | `#cba6f7` | Compacto, ubicuo | [[02 Hexadecimal]] |
-| RGB / RGBA | `rgb(203 166 247)` | Control de canales y alfa | [[03 RGB y RGBA]] |
-| HSL / HSLA | `hsl(267 89% 81%)` | Ajustar tono/saturación/luz a mano | [[04 HSL y HSLA]] |
-| HWB | `hwb(267 65% 3%)` | Mezclar con blanco/negro | [[05 HWB]] |
-| LAB / LCH / OKLCH | `oklch(0.8 0.12 300)` | Uniformidad perceptual, amplio gamut | [[06 LAB y LCH]] |
-| `color-mix()` | `color-mix(in oklch, …)` | Mezclar dos colores | [[07 color-mix()]] |
+| Formato | Sintaxis | Fuerte en |
+|---------|----------|-----------|
+| Palabras clave | `red`, `tomato` | Rapidez, prototipo |
+| Hexadecimal | `#cba6f7` | Compacto, ubicuo |
+| RGB / RGBA | `rgb(203 166 247)` | Control de canales y alfa |
+| HSL / HSLA | `hsl(267 89% 81%)` | Ajustar tono/saturación/luz a mano |
+| HWB | `hwb(267 65% 3%)` | Mezclar con blanco/negro |
+| LAB / LCH / OKLCH | `oklch(0.8 0.12 300)` | Uniformidad perceptual, amplio gamut |
+| `color-mix()` | `color-mix(in oklch, …)` | Mezclar dos colores |
+
+Cada formato en su nota: [[01 Palabras Clave de Color]], [[02 Hexadecimal]], [[03 RGB y RGBA]], [[04 HSL y HSLA]], [[05 HWB]], [[06 LAB y LCH]] y [[07 color-mix()]].
 
 ## Qué es un color en pantalla
 
