@@ -23,14 +23,16 @@ width: clamp(20rem, 50%, 40rem);   /* funcional */
 
 ## Familias de unidades
 
-| Familia | Relativa a… | Ejemplos | Nota |
-|---------|-------------|----------|------|
-| Absolutas | Nada (tamaño fijo) | `px`, `pt`, `cm` | [[01 Unidades Absolutas (px, pt, cm)]] |
-| Relativas a fuente | El `font-size` | `em`, `rem`, `ch`, `ex` | [[02 Relativas a Fuente (em, rem, ch, ex)]] |
-| Relativas al viewport | El tamaño de la ventana | `vw`, `vh`, `vmin`, `vmax` | [[03 Relativas al Viewport (vw, vh, vmin, vmax)]] |
-| Viewport dinámico | La ventana real en móvil | `svh`, `lvh`, `dvh` | [[04 Viewport Dinámico (svh, lvh, dvh)]] |
-| Porcentajes | El contenedor | `%` | [[05 Porcentajes]] |
-| Funcionales | Combinan unidades | `calc()`, `min()`, `max()`, `clamp()` | [[06 calc()]], [[07 min(), max(), clamp()]] |
+| Familia | Relativa a… | Ejemplos |
+|---------|-------------|----------|
+| Absolutas | Nada (tamaño fijo) | `px`, `pt`, `cm` |
+| Relativas a fuente | El `font-size` | `em`, `rem`, `ch`, `ex` |
+| Relativas al viewport | El tamaño de la ventana | `vw`, `vh`, `vmin`, `vmax` |
+| Viewport dinámico | La ventana real en móvil | `svh`, `lvh`, `dvh` |
+| Porcentajes | El contenedor | `%` |
+| Funcionales | Combinan unidades | `calc()`, `min()`, `max()`, `clamp()` |
+
+Cada familia en su nota: [[01 Unidades Absolutas (px, pt, cm)]], [[02 Relativas a Fuente (em, rem, ch, ex)]], [[03 Relativas al Viewport (vw, vh, vmin, vmax)]], [[04 Viewport Dinámico (svh, lvh, dvh)]], [[05 Porcentajes]], [[06 calc()]] y [[07 min(), max(), clamp()]].
 
 ## El eje absoluto vs. relativo
 
