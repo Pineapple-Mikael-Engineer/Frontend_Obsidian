@@ -49,8 +49,10 @@ draft: false
 | Mecanismo | Cuándo |
 |-----------|--------|
 | `type="hidden"` | Dato que viaja con un envío de formulario clásico |
-| Atributo `data-*` | Dato para JavaScript, no para enviar (ver [[12 Atributos de Datos (data-*) | data-*]]) |
+| Atributo `data-*` | Dato para JavaScript, no para enviar |
 | Variable JS / estado | Dato que solo vive en el cliente |
+
+Los atributos `data-*` se desarrollan en [[12 Atributos de Datos (data-*)]].
 
 ## Buenas prácticas
 

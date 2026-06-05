@@ -31,7 +31,7 @@ draft: false
 | `min` / `max` | Extremos del rango (por defecto 0 y 100) |
 | `step` | Incremento del deslizador |
 | `value` | Posición inicial |
-| `list` | Asocia un [[05 Lista de Datos (datalist) | `<datalist>`]] para marcar puntos (ticks) |
+| `list` | Asocia un `<datalist>` para marcar puntos (ticks) |
 
 ## El valor exacto no se ve
 
