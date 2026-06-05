@@ -30,10 +30,10 @@ draft: false
 
 | Elemento | Representa | Ejemplo |
 |----------|------------|---------|
-| `<code>` | Código fuente literal | `<code>map()</code> |
-| `<var>` | Variable o marcador de posición | <var>x</var>, <var>nombre</var> |
+| `<code>` | Código fuente literal | `<code>map()</code>` |
+| `<var>` | Variable o marcador de posición | `<var>x</var>`, `<var>nombre</var>` |
 | `<samp>` | Salida de un programa | `<samp>Error 404</samp> |
-| `<kbd>` | Entrada del usuario por teclado | <kbd>Ctrl</kbd>+<kbd>C</kbd> |
+| `<kbd>` | Entrada del usuario por teclado | `<kbd>Ctrl</kbd>+<kbd>C</kbd>` |
 
 El detalle de cada uno: [[17 Código (code) | code]], [[20 Salida de Programa (samp) | samp]] y [[21 Entrada de Teclado (kbd) | kbd]].
 
