@@ -50,9 +50,9 @@ Todo esto funciona **sin una línea de JavaScript ni ARIA**.
 
 ```mermaid
 graph TD
-  A["1. HTML semántico correcto"] --> B["2. Atributos nativos (alt, label, lang)"]
-  B --> C["3. ARIA solo para lo que falte"]
-  C --> D["4. JavaScript accesible"]
+  A["1 HTML semántico correcto"] --> B["2 Atributos nativos (alt, label, lang)"]
+  B --> C["3 ARIA solo para lo que falte"]
+  C --> D["4 JavaScript accesible"]
 ```
 
 Se construye de abajo arriba: primero la base semántica, y solo se sube a ARIA o JS cuando el HTML no llega.
