@@ -29,11 +29,13 @@ draft: false
 | Valor | Qué es |
 |-------|--------|
 | `url("ruta")` | Un archivo de imagen |
-| `linear-gradient(...)` | Un [[01 linear-gradient | gradiente lineal]] |
-| `radial-gradient(...)` | Un [[02 radial-gradient | gradiente radial]] |
-| `conic-gradient(...)` | Un [[03 conic-gradient | gradiente cónico]] |
+| `linear-gradient(...)` | Un gradiente lineal |
+| `radial-gradient(...)` | Un gradiente radial |
+| `conic-gradient(...)` | Un gradiente cónico |
 | `image-set(...)` | Varias resoluciones (responsive) |
 | `none` | Sin imagen (por defecto) |
+
+Los gradientes se desarrollan en [[02 Gradientes/index | la subsección de gradientes]].
 
 ## background-image vs. <img>
 
