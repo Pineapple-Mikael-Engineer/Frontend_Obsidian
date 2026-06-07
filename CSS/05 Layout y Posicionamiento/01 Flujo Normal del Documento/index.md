@@ -24,12 +24,14 @@ span { display: inline; }        /* fluye con el texto */
 
 ## Los valores de display de esta sección
 
-| Valor | Comportamiento | Nota |
-|-------|----------------|------|
-| `block` | Ocupa todo el ancho, apila verticalmente | [[01 display block]] |
-| `inline` | Fluye con el texto, sin dimensiones | [[02 display inline]] |
-| `inline-block` | En línea pero acepta `width`/`height` | [[03 display inline-block]] |
-| `none` | No se renderiza (fuera del flujo) | [[04 display none]] |
+| Valor | Comportamiento |
+|-------|----------------|
+| `block` | Ocupa todo el ancho, apila verticalmente |
+| `inline` | Fluye con el texto, sin dimensiones |
+| `inline-block` | En línea pero acepta `width`/`height` |
+| `none` | No se renderiza (fuera del flujo) |
+
+Cada uno en su nota: [[01 display block]], [[02 display inline]], [[03 display inline-block]] y [[04 display none]].
 
 (Los valores `flex` y `grid` activan sus propios sistemas, en [[03 Flexbox/index]] y [[04 CSS Grid/index]].)
 
