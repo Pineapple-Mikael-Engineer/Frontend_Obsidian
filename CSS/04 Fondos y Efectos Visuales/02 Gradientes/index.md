@@ -22,12 +22,14 @@ draft: false
 
 ## Los tipos
 
-| Tipo | Forma | Nota |
-|------|-------|------|
-| Lineal | A lo largo de una línea/ángulo | [[01 linear-gradient]] |
-| Radial | Desde un punto hacia fuera (círculo/elipse) | [[02 radial-gradient]] |
-| Cónico | Girando alrededor de un centro (como un reloj) | [[03 conic-gradient]] |
-| Repetidos | Cualquiera de los anteriores, en bucle | [[04 Gradientes Repetidos]] |
+| Tipo | Forma |
+|------|-------|
+| Lineal | A lo largo de una línea/ángulo |
+| Radial | Desde un punto hacia fuera (círculo/elipse) |
+| Cónico | Girando alrededor de un centro (como un reloj) |
+| Repetidos | Cualquiera de los anteriores, en bucle |
+
+Cada tipo en su nota: [[01 linear-gradient]], [[02 radial-gradient]], [[03 conic-gradient]] y [[04 Gradientes Repetidos]].
 
 ## Los color stops (paradas de color)
 
