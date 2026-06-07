@@ -29,7 +29,9 @@ draft: false
 | `minimum-scale` | `1.0` | Zoom mínimo |
 | `maximum-scale` | `5.0` | Zoom máximo |
 | `user-scalable` | `yes` / `no` | Si se permite el pinch-zoom |
-| `viewport-fit` | `cover` | Cubrir bajo el notch (ver [[02 viewport-fit]]) |
+| `viewport-fit` | `cover` | Cubrir bajo el notch del móvil |
+
+El detalle de `viewport-fit` está en [[02 viewport-fit]].
 
 ## La línea estándar
 
