@@ -22,13 +22,15 @@ draft: false
 
 ## Los cinco valores
 
-| Valor | Respecto a | Sale del flujo | Nota |
-|-------|------------|----------------|------|
-| `static` | Su sitio normal | No (por defecto) | [[01 static]] |
-| `relative` | Su propia posición original | No (deja su hueco) | [[02 relative]] |
-| `absolute` | El ancestro posicionado más cercano | Sí | [[03 absolute]] |
-| `fixed` | La ventana (viewport) | Sí | [[04 fixed]] |
-| `sticky` | Híbrido: normal hasta un umbral, luego fijo | Parcial | [[05 sticky]] |
+| Valor | Respecto a | Sale del flujo |
+|-------|------------|----------------|
+| `static` | Su sitio normal | No (por defecto) |
+| `relative` | Su propia posición original | No (deja su hueco) |
+| `absolute` | El ancestro posicionado más cercano | Sí |
+| `fixed` | La ventana (viewport) | Sí |
+| `sticky` | Híbrido: normal hasta un umbral, luego fijo | Parcial |
+
+Cada valor en su nota: [[01 static]], [[02 relative]], [[03 absolute]], [[04 fixed]] y [[05 sticky]].
 
 ## La pareja relative + absolute
 
