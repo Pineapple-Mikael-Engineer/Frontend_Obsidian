@@ -37,14 +37,16 @@ body { font-family: "Inter", system-ui, sans-serif; }
 
 ## Las sub-reglas (descriptores)
 
-| Descriptor | Para qué | Nota |
-|------------|----------|------|
-| `font-family` | El nombre con el que se referenciará | — |
-| `src` | El archivo y su formato | [[01 src y format]] |
-| `font-weight` | Qué peso(s) cubre este archivo | — |
-| `font-style` | Si es normal o italic | — |
-| `font-display` | Cómo mostrar el texto mientras carga | [[02 font-display]] |
-| `unicode-range` | Qué caracteres cubre (carga parcial) | [[03 unicode-range]] |
+| Descriptor | Para qué |
+|------------|----------|
+| `font-family` | El nombre con el que se referenciará |
+| `src` | El archivo y su formato |
+| `font-weight` | Qué peso(s) cubre este archivo |
+| `font-style` | Si es normal o italic |
+| `font-display` | Cómo mostrar el texto mientras carga |
+| `unicode-range` | Qué caracteres cubre (carga parcial) |
+
+El detalle de los descriptores clave: [[01 src y format]], [[02 font-display]] y [[03 unicode-range]].
 
 ## Mapa de la subsección
 
