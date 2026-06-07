@@ -27,12 +27,14 @@ draft: false
 transition: <propiedad> <duración> <curva> <retardo>;
 ```
 
-| Parte | Ejemplo | Nota |
-|-------|---------|------|
-| Propiedad | `background` | [[01 transition-property]] |
-| Duración | `0.2s` | [[02 transition-duration]] |
-| Curva | `ease` | [[03 transition-timing-function]] |
-| Retardo | `0.1s` | [[04 transition-delay]] |
+| Parte | Ejemplo |
+|-------|---------|
+| Propiedad | `background` |
+| Duración | `0.2s` |
+| Curva | `ease` |
+| Retardo | `0.1s` |
+
+Cada parte en su nota: [[01 transition-property]], [[02 transition-duration]], [[03 transition-timing-function]] y [[04 transition-delay]].
 
 Solo la **duración** es obligatoria; el resto tiene valores por defecto.
 
