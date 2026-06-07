@@ -33,13 +33,15 @@ draft: false
 
 ## Lo que se puede consultar
 
-| Categoría | Features | Nota |
-|-----------|----------|------|
-| Dimensión | `width`, `height`, `aspect-ratio` | [[04 Dimensión (width, height, aspect-ratio)]] |
-| Orientación | `orientation: portrait/landscape` | [[04 Dimensión (width, height, aspect-ratio)]] |
-| Interacción | `hover`, `pointer` | [[05 Interacción (hover, pointer)]] |
-| Preferencias | `prefers-color-scheme`, `prefers-reduced-motion` | [[06 Preferencias (prefers-color-scheme, prefers-reduced-motion)]] |
-| Resolución | `resolution` (pantallas retina) | — |
+| Categoría | Features |
+|-----------|----------|
+| Dimensión | `width`, `height`, `aspect-ratio` |
+| Orientación | `orientation: portrait/landscape` |
+| Interacción | `hover`, `pointer` |
+| Preferencias | `prefers-color-scheme`, `prefers-reduced-motion` |
+| Resolución | `resolution` (pantallas retina) |
+
+El detalle: [[04 Dimensión (width, height, aspect-ratio)]], [[05 Interacción (hover, pointer)]] y [[06 Preferencias (prefers-color-scheme, prefers-reduced-motion)]].
 
 ## No solo es para el tamaño
 

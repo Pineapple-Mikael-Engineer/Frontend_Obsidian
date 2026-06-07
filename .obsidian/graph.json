@@ -20,6 +20,13 @@
         "a": 1,
         "rgb": 8694200
       }
+    },
+    {
+      "query": "tag:#api/concepto  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
     }
   ],
   "collapse-display": false,
@@ -32,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.17694249706390375,
+  "scale": 0.24309179741148168,
   "close": true
 }
