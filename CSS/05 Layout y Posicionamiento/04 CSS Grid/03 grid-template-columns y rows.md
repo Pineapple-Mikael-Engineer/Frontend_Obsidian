@@ -41,7 +41,7 @@ draft: false
 | Valor | Tamaño |
 |-------|--------|
 | `200px`, `10rem` | Fijo |
-| `1fr` | Una fracción del espacio sobrante (ver [[04 Unidad fr y repeat()]]) |
+| `1fr` | Una fracción del espacio sobrante (ver `fr` y `repeat()`) |
 | `auto` | El tamaño del contenido |
 | `min-content` / `max-content` | Según el contenido |
 | `minmax(min, max)` | Entre un mínimo y un máximo |
