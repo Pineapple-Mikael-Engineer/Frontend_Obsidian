@@ -76,10 +76,12 @@ draft: false
 
 | Quiero… | Usar |
 |---------|------|
-| Esquinas redondeadas simples | [[05 border-radius | `border-radius`]] |
+| Esquinas redondeadas simples | `border-radius` |
 | Una forma geométrica (hexágono, diagonal) | `clip-path` |
 | Recortar contenido desbordado a la caja | `overflow: hidden` |
-| Transparencia **gradual** (desvanecido) | [[02 mask | `mask`]] |
+| Transparencia **gradual** (desvanecido) | `mask` |
+
+Para esquinas simples, [[05 border-radius]]; para transparencia gradual, [[02 mask]].
 
 ## El área clicable se recorta
 
