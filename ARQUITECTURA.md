@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # ARQUITECTURA DE BÓVEDA OBSIDIAN PARA FRONTEND FUNDAMENTAL
 
 Este documento establece la estructura conceptual jerárquica para organizar todo el conocimiento de HTML, CSS y JavaScript en una bóveda de Obsidian. Cada nodo terminal representa un concepto que puede convertirse en una nota independiente.

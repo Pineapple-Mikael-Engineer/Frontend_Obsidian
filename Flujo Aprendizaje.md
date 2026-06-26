@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # ROADMAP COMPLETO PARA DOMINAR FRONTEND BÁSICO (HTML, CSS, JavaScript)
 
 ---

@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 
 # 2. BLOQUES TEMÁTICOS (MAPA CONCEPTUAL PARA OBSIDIAN)
 
