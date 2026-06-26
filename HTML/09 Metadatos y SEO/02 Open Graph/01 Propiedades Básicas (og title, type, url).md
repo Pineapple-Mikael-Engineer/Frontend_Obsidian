@@ -1,5 +1,5 @@
 ---
-title: Open Graph básico — og:title, og:type, og:url, og:image
+title: "Open Graph básico — og:title, og:type, og:url, og:image"
 aliases:
   - og basic
   - propiedades open graph

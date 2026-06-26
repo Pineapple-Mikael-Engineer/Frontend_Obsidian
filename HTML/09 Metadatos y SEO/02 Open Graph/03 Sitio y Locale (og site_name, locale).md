@@ -1,5 +1,5 @@
 ---
-title: og:site_name y og:locale — Sitio e idioma
+title: "og:site_name y og:locale — Sitio e idioma"
 aliases:
   - og site_name
   - og locale

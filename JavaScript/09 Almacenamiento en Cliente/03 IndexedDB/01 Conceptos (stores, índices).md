@@ -1,5 +1,5 @@
 ---
-title: IndexedDB — Conceptos: stores, índices y versiones
+title: "IndexedDB — Conceptos: stores, índices y versiones"
 aliases:
   - IDB stores
   - IndexedDB object store

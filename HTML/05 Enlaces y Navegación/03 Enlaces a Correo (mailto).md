@@ -1,5 +1,5 @@
 ---
-title: mailto: — Enlaces que abren el cliente de correo
+title: "mailto: — Enlaces que abren el cliente de correo"
 aliases:
   - mailto
   - email link

@@ -1,5 +1,5 @@
 ---
-title: twitter:card — Tipo de tarjeta
+title: "twitter:card — Tipo de tarjeta"
 aliases:
   - twitter card type
 tags:

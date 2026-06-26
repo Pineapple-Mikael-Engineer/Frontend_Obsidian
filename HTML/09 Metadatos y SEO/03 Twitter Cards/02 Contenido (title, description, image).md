@@ -1,5 +1,5 @@
 ---
-title: twitter:title, description, image — Contenido de la tarjeta
+title: "twitter:title, description, image — Contenido de la tarjeta"
 aliases:
   - twitter content
 tags:

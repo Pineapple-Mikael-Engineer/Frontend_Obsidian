@@ -1,5 +1,5 @@
 ---
-title: og:image — La imagen de la tarjeta social
+title: "og:image — La imagen de la tarjeta social"
 aliases:
   - og image
 tags:

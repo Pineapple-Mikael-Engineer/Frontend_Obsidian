@@ -1,5 +1,5 @@
 ---
-title: tel: — Enlaces que inician una llamada
+title: "tel: — Enlaces que inician una llamada"
 aliases:
   - tel
   - phone link

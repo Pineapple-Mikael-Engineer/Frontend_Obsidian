@@ -1,5 +1,5 @@
 ---
-title: Declaración y Bloque — Pares propiedad:valor agrupados
+title: "Declaración y Bloque — Pares propiedad:valor agrupados"
 aliases:
   - declaration block
 tags:

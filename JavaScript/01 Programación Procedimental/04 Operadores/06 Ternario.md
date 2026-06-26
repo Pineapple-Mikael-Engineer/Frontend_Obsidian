@@ -1,5 +1,5 @@
 ---
-title: Operador Ternario — condición ? valorTrue : valorFalse
+title: "Operador Ternario — condición ? valorTrue : valorFalse"
 aliases:
   - operador ternario JS
   - ternary operator
