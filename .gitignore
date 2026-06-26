@@ -1,12 +1,30 @@
-# Obsidian: caché y estado de UI (no se versiona)
+# ── Obsidian: ignorar todo .obsidian por defecto ──────────────────────────────
+.obsidian/*
+
+# Excepciones: archivos de configuración que sí se versionan
+!.obsidian/app.json
+!.obsidian/core-plugins.json
+!.obsidian/hotkeys.json
+!.obsidian/snippets/
+!.obsidian/themes/
+
+# ── Obsidian: estado de UI y caché (siempre ignorar) ──────────────────────────
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
+.obsidian/plugins/
+
+# ── Papelera de Obsidian ───────────────────────────────────────────────────────
 .trash/
 
-# Sistema operativo
+# ── Sistema operativo ─────────────────────────────────────────────────────────
 .DS_Store
+.DS_Store?
+._*
 Thumbs.db
+ehthumbs.db
+desktop.ini
 
-# Temporales de exportación (PDF/SVG generados por skills)
+# ── Temporales de exportación (PDF/SVG generados por skills) ──────────────────
 *.tmp
+*.log
