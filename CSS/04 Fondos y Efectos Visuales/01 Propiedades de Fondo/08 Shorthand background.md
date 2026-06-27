@@ -12,6 +12,7 @@ valor_inicial: "ver sub-propiedades"
 hereda: false
 animable: false
 draft: false
+order: 8
 ---
 
 # Shorthand background

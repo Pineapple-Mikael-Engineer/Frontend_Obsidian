@@ -13,6 +13,7 @@ objeto: indexedDB
 tipo: concepto
 asincrono: true
 draft: false
+order: 1
 ---
 
 # IndexedDB — Conceptos: stores, índices y versiones

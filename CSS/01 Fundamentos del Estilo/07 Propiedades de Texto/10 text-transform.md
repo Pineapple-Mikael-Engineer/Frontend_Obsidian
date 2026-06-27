@@ -13,6 +13,7 @@ valor_inicial: none
 hereda: true
 animable: false
 draft: false
+order: 10
 ---
 
 # text-transform

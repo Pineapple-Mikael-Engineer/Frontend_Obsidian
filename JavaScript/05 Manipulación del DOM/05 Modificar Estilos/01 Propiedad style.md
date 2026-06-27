@@ -9,6 +9,7 @@ tags:
   - api/propiedad
   - dom
 draft: false
+order: 1
 ---
 
 # Propiedad `style`

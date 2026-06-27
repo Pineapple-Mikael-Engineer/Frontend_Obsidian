@@ -13,6 +13,7 @@ valor_inicial: border-box
 hereda: false
 animable: false
 draft: false
+order: 7
 ---
 
 # background-clip y background-origin

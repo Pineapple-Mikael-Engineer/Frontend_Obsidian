@@ -10,6 +10,7 @@ tags:
   - api/propiedad
   - dom
 draft: false
+order: 2
 ---
 
 # `clientWidth` y `clientHeight`

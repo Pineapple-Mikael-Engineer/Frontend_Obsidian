@@ -11,6 +11,7 @@ tags:
   - api/metodo
   - funcional
 draft: false
+order: 5
 ---
 
 # toSorted, toReversed, toSpliced y with

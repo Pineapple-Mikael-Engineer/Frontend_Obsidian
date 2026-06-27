@@ -10,6 +10,7 @@ tags:
 objeto: window
 tipo: propiedad
 draft: false
+order: 2
 ---
 
 # `sessionStorage`

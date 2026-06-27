@@ -12,6 +12,7 @@ categoria: ninguna
 rol_implicito: cell
 vacio: false
 draft: false
+order: 4
 ---
 
 # Celda de Datos (td)

@@ -13,6 +13,7 @@ tipo: concepto
 muta: false
 asincrono: false
 draft: false
+order: 3
 ---
 
 # Map vs Object — Diferencias y cuándo usar cada uno

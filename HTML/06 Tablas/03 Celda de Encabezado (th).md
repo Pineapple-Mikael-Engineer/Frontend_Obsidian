@@ -12,6 +12,7 @@ categoria: ninguna
 rol_implicito: columnheader
 vacio: false
 draft: false
+order: 3
 ---
 
 # Celda de Encabezado (th)

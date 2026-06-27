@@ -15,6 +15,7 @@ retorna: number | any
 muta: true
 asincrono: false
 draft: false
+order: 3
 ---
 
 # Array.prototype.push y pop

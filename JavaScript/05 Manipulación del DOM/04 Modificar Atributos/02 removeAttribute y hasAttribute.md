@@ -15,6 +15,7 @@ retorna: undefined | boolean
 muta: true
 asincrono: false
 draft: false
+order: 2
 ---
 
 # removeAttribute y hasAttribute

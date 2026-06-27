@@ -15,6 +15,7 @@ tipo: concepto
 muta: false
 asincrono: false
 draft: false
+order: 7
 ---
 
 # Recorrer Propiedades (keys, values, entries)

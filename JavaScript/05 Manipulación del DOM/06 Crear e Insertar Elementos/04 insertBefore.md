@@ -9,6 +9,7 @@ tags:
   - api/metodo
   - dom
 draft: false
+order: 4
 ---
 
 # `insertBefore`

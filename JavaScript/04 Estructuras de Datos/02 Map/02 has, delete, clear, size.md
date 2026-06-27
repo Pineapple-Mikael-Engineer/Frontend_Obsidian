@@ -15,6 +15,7 @@ retorna: boolean
 muta: true
 asincrono: false
 draft: false
+order: 1
 ---
 
 # Map — `has`, `delete`, `clear`, `size`

@@ -15,6 +15,7 @@ retorna: number (o string con +)
 muta: false
 asincrono: false
 draft: false
+order: 2
 ---
 
 # Operadores Aritméticos

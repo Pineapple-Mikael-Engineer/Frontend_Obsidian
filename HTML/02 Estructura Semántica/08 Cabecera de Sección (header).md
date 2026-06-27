@@ -11,6 +11,7 @@ categoria: flujo
 rol_implicito: banner
 vacio: false
 draft: false
+order: 8
 ---
 
 # Cabecera de Sección (header)

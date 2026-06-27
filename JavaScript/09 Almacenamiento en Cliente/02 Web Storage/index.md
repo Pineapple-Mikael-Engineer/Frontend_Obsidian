@@ -9,6 +9,7 @@ tags:
   - api/web
   - almacenamiento
 draft: false
+order: 2
 ---
 
 # Web Storage

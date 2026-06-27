@@ -14,6 +14,7 @@ valor_inicial: auto
 hereda: false
 animable: false
 draft: false
+order: 7
 ---
 
 # Ubicación por Líneas (grid-column, grid-row)

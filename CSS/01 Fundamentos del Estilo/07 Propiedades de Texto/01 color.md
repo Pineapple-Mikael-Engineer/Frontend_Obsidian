@@ -12,6 +12,7 @@ valor_inicial: "depende del navegador (suele negro)"
 hereda: true
 animable: true
 draft: false
+order: 1
 ---
 
 # color

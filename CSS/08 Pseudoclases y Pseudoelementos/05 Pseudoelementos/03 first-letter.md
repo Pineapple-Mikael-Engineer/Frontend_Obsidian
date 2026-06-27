@@ -9,6 +9,7 @@ tags:
 propiedad: "::first-letter"
 grupo: pseudoelemento
 draft: false
+order: 3
 ---
 
 # ::first-letter

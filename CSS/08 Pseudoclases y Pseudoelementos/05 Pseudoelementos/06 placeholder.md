@@ -9,6 +9,7 @@ tags:
 propiedad: "::placeholder"
 grupo: pseudoelemento
 draft: false
+order: 6
 ---
 
 # ::placeholder

@@ -14,6 +14,7 @@ retorna: CustomEvent
 muta: false
 asincrono: false
 draft: false
+order: 1
 ---
 
 # CustomEvent y dispatchEvent

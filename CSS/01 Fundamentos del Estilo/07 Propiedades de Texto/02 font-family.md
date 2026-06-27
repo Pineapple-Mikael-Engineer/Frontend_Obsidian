@@ -12,6 +12,7 @@ valor_inicial: "depende del navegador"
 hereda: true
 animable: false
 draft: false
+order: 2
 ---
 
 # font-family

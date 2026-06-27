@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - funcional
 draft: false
+order: 6
 ---
 
 # Currying y Composición

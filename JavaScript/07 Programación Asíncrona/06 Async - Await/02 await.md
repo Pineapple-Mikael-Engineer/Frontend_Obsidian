@@ -13,6 +13,7 @@ retorna: any
 muta: false
 asincrono: true
 draft: false
+order: 2
 ---
 
 # `await`

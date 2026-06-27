@@ -8,6 +8,7 @@ tags:
   - api/funcion
   - animacion
 draft: false
+order: 2
 ---
 
 # steps()

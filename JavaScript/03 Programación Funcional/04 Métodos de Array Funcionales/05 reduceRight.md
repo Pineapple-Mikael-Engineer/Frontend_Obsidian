@@ -8,6 +8,7 @@ tags:
   - api/metodo
   - arrays
 draft: false
+order: 5
 ---
 
 # reduceRight

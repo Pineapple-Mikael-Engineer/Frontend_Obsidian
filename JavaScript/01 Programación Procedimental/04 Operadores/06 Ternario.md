@@ -14,6 +14,7 @@ retorna: uno de los dos valores según la condición
 muta: false
 asincrono: false
 draft: false
+order: 6
 ---
 
 # Operador Ternario

@@ -12,6 +12,7 @@ valor_inicial: none
 hereda: false
 animable: true
 draft: false
+order: 1
 ---
 
 # box-shadow

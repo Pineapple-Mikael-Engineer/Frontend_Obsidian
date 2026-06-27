@@ -14,6 +14,7 @@ retorna: Response
 muta: false
 asincrono: false
 draft: false
+order: 4
 ---
 
 # Objeto `Response`

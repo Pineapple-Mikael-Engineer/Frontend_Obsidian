@@ -13,6 +13,7 @@ tipo: concepto
 muta: false
 asincrono: false
 draft: false
+order: 5
 ---
 
 # `HTMLCollection` vs `NodeList`

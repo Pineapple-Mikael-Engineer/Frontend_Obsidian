@@ -11,6 +11,7 @@ tags:
 objeto: Object
 tipo: concepto
 draft: false
+order: 1
 ---
 
 # Creación y Propiedades

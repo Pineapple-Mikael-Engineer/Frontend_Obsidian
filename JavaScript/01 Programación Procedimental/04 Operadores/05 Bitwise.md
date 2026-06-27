@@ -15,6 +15,7 @@ retorna: number (int32 con signo, excepto >>> que devuelve uint32)
 muta: false
 asincrono: false
 draft: false
+order: 5
 ---
 
 # Operadores Bitwise

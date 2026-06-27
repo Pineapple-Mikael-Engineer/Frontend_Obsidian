@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - patrones
 draft: false
+order: 12
 ---
 
 # Patrones y Buenas Prácticas

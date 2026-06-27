@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - operadores
 draft: false
+order: 9
 ---
 
 # Operador in

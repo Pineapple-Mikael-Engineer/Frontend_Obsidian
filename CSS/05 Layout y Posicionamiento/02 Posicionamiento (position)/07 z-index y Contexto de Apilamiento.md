@@ -13,6 +13,7 @@ valor_inicial: auto
 hereda: false
 animable: true
 draft: false
+order: 7
 ---
 
 # z-index y Contexto de Apilamiento

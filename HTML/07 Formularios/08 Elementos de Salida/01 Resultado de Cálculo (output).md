@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: status
 vacio: false
 draft: false
+order: 1
 ---
 
 # Resultado de Cálculo (output)

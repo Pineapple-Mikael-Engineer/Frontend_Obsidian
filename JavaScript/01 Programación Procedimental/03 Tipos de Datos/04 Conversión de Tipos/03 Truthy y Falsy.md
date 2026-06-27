@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - tipos
 draft: false
+order: 3
 ---
 
 # Truthy y Falsy

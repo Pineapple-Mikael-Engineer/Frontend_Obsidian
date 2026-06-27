@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - variables
 draft: false
+order: 3
 ---
 
 # Ámbito y Herencia de Variables CSS

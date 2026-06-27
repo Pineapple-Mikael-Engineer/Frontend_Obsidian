@@ -10,6 +10,7 @@ tags:
 propiedad: ":first-of-type"
 grupo: pseudoclase
 draft: false
+order: 2
 ---
 
 # :first-of-type y :last-of-type

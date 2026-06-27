@@ -14,6 +14,7 @@ retorna: "-"
 muta: false
 asincrono: false
 draft: false
+order: 2
 ---
 
 # try / catch / finally

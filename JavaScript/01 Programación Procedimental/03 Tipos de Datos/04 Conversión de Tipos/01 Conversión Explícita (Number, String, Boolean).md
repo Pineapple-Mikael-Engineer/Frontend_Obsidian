@@ -11,6 +11,7 @@ tags:
 objeto: global
 tipo: concepto
 draft: false
+order: 1
 ---
 
 # Conversión Explícita (Number, String, Boolean)

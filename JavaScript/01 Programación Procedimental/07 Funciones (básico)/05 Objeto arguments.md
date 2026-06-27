@@ -11,6 +11,7 @@ tags:
 objeto: global
 tipo: concepto
 draft: false
+order: 5
 ---
 
 # Objeto `arguments`

@@ -14,6 +14,7 @@ tipo: clase
 muta: true
 asincrono: false
 draft: false
+order: 2
 ---
 
 # Métodos de FormData (append, get, set…)

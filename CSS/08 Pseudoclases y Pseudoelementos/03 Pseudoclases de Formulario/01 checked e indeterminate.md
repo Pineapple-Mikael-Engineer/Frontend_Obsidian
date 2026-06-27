@@ -10,6 +10,7 @@ tags:
 propiedad: ":checked"
 grupo: pseudoclase
 draft: false
+order: 1
 ---
 
 # :checked e :indeterminate

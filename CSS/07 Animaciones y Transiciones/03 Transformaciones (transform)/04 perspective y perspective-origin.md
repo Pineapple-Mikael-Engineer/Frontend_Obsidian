@@ -13,6 +13,7 @@ valor_inicial: none
 hereda: false
 animable: true
 draft: false
+order: 4
 ---
 
 # perspective y perspective-origin

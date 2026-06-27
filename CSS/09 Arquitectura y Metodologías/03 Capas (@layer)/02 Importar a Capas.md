@@ -10,6 +10,7 @@ tags:
 propiedad: "@import"
 grupo: at-rule
 draft: false
+order: 2
 ---
 
 # Importar a Capas

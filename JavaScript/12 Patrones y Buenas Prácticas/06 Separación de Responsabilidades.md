@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - patrones
 draft: false
+order: 3
 ---
 
 # Separación de Responsabilidades

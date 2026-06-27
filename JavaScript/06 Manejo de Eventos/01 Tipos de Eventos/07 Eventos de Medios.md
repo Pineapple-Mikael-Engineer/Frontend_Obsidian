@@ -9,6 +9,7 @@ tags:
   - api/evento
   - eventos
 draft: false
+order: 7
 ---
 
 # Eventos de Medios

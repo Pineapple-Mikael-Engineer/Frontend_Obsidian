@@ -10,6 +10,7 @@ tags:
 objeto: global
 tipo: concepto
 draft: false
+order: 7
 ---
 
 # Funciones (básico)

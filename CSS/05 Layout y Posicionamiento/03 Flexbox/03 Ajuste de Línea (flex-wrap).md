@@ -12,6 +12,7 @@ valor_inicial: nowrap
 hereda: false
 animable: false
 draft: false
+order: 3
 ---
 
 # flex-wrap

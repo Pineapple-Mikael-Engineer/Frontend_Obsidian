@@ -12,6 +12,7 @@ tags:
 objeto: Object
 tipo: concepto
 draft: false
+order: 3
 ---
 
 # Acceso a Propiedades (dot y bracket)

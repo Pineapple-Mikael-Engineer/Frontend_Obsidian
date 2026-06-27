@@ -11,6 +11,7 @@ categoria: seccionado
 rol_implicito: region
 vacio: false
 draft: false
+order: 5
 ---
 
 # Secciones (section)

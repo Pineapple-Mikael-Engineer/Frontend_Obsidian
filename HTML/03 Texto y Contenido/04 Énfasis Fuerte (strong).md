@@ -12,6 +12,7 @@ categoria: fraseo
 rol_implicito: strong
 vacio: false
 draft: false
+order: 4
 ---
 
 # Énfasis Fuerte (strong)

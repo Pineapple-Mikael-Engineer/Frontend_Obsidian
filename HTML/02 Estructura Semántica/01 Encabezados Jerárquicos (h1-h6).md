@@ -12,6 +12,7 @@ categoria: flujo
 rol_implicito: heading
 vacio: false
 draft: false
+order: 1
 ---
 
 # Encabezados Jerárquicos (h1-h6)

@@ -13,6 +13,7 @@ retorna: NodeList
 muta: false
 asincrono: false
 draft: false
+order: 4
 ---
 
 # `querySelectorAll`

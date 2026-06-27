@@ -8,6 +8,7 @@ tags:
   - api/web
   - almacenamiento
 draft: false
+order: 9
 ---
 
 # 09 Almacenamiento en Cliente

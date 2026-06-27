@@ -15,6 +15,7 @@ valor_inicial: none
 hereda: false
 animable: true
 draft: false
+order: 2
 ---
 
 # min y max (width, height)

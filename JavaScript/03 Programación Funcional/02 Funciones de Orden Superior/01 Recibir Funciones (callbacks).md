@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - funcional
 draft: false
+order: 1
 ---
 
 # Recibir Funciones (callbacks)

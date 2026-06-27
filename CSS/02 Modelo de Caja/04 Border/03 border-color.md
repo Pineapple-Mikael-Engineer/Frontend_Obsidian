@@ -12,6 +12,7 @@ valor_inicial: currentColor
 hereda: false
 animable: true
 draft: false
+order: 3
 ---
 
 # border-color

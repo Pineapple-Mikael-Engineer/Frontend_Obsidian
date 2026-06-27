@@ -10,6 +10,7 @@ tags:
   - api/funcion
   - animacion
 draft: false
+order: 1
 ---
 
 # Transformaciones 2D (translate, rotate, scale, skew)

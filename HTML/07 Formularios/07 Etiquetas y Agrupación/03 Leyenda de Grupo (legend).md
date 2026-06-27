@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: ninguno
 vacio: false
 draft: false
+order: 3
 ---
 
 # Leyenda de Grupo (legend)

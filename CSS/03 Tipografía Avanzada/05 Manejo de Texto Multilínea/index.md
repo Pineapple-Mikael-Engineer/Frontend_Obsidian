@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - tipografia
 draft: false
+order: 4
 ---
 
 # Manejo de Texto Multilínea

@@ -12,6 +12,7 @@ valor_inicial: mixed
 hereda: true
 animable: false
 draft: false
+order: 3
 ---
 
 # text-orientation

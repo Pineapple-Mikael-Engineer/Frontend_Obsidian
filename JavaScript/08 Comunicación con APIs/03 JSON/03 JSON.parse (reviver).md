@@ -14,6 +14,7 @@ retorna: any
 muta: false
 asincrono: false
 draft: false
+order: 3
 ---
 
 # `JSON.parse` — deserializar texto JSON

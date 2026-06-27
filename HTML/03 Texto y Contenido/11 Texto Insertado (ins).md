@@ -12,6 +12,7 @@ categoria: fraseo
 rol_implicito: insertion
 vacio: false
 draft: false
+order: 11
 ---
 
 # Texto Insertado (ins)

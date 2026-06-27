@@ -11,6 +11,7 @@ tags:
 objeto: HTMLCanvasElement
 tipo: concepto
 draft: false
+order: 1
 ---
 
 # Contexto 2D

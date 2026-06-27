@@ -12,6 +12,7 @@ categoria: interactivo
 rol_implicito: slider
 vacio: true
 draft: false
+order: 18
 ---
 
 # input range

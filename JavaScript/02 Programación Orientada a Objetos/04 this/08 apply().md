@@ -14,6 +14,7 @@ retorna: any
 muta: false
 asincrono: false
 draft: false
+order: 8
 ---
 
 # `Function.prototype.apply()`

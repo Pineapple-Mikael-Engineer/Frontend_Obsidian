@@ -11,6 +11,7 @@ tags:
 objeto: global
 tipo: concepto
 draft: false
+order: 6
 ---
 
 # Manejo de Errores en `fetch`

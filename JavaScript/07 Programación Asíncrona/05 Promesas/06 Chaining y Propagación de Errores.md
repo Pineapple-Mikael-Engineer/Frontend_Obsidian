@@ -11,6 +11,7 @@ tags:
 objeto: Promise
 tipo: concepto
 draft: false
+order: 6
 ---
 
 # Chaining y Propagación de Errores

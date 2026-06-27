@@ -11,6 +11,7 @@ categoria: flujo
 rol_implicito: meter
 vacio: false
 draft: false
+order: 2
 ---
 
 # Medidor (meter)

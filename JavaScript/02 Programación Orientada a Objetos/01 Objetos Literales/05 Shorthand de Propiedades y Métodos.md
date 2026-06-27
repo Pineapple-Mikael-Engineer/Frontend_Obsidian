@@ -12,6 +12,7 @@ tags:
 objeto: Object
 tipo: concepto
 draft: false
+order: 5
 ---
 
 # Shorthand de Propiedades y Métodos

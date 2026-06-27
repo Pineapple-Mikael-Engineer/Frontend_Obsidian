@@ -14,6 +14,7 @@ retorna: undefined
 muta: false
 asincrono: false
 draft: false
+order: 2
 ---
 
 # Opciones de addEventListener (once, passive, capture)

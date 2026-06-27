@@ -12,6 +12,7 @@ tags:
 objeto: global
 tipo: concepto
 draft: false
+order: 8
 ---
 
 # Herencia (`extends`, `super`)

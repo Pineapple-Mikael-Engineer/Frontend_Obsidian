@@ -12,6 +12,7 @@ valor_inicial: none
 hereda: true
 animable: true
 draft: false
+order: 1
 ---
 
 # text-shadow

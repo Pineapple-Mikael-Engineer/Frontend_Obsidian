@@ -12,6 +12,7 @@ categoria: incrustado
 rol_implicito: ninguno
 vacio: false
 draft: false
+order: 2
 ---
 
 # Imágenes Responsivas (picture, source)

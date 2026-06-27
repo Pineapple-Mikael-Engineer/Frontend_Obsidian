@@ -11,6 +11,7 @@ tags:
 objeto: CanvasRenderingContext2D
 tipo: concepto
 draft: false
+order: 2
 ---
 
 # Dibujar Formas y Trazados

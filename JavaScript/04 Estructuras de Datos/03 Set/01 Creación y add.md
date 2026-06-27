@@ -13,6 +13,7 @@ retorna: Set
 muta: true
 asincrono: false
 draft: false
+order: 1
 ---
 
 # Set — Creación y `add`

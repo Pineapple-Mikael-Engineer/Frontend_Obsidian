@@ -12,6 +12,7 @@ valor_inicial: "0s"
 hereda: false
 animable: false
 draft: false
+order: 2
 ---
 
 # transition-duration

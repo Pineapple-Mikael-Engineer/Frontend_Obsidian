@@ -9,6 +9,7 @@ tags:
 propiedad: ":target"
 grupo: pseudoclase
 draft: false
+order: 6
 ---
 
 # :target

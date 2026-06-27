@@ -12,6 +12,7 @@ tipo: clase
 retorna: MutationObserver
 asincrono: true
 draft: false
+order: 2
 ---
 
 # MutationObserver

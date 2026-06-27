@@ -7,6 +7,7 @@ tags:
   - javascript
   - api/concepto
 draft: false
+order: 2
 ---
 
 # Programación Orientada a Objetos en JavaScript

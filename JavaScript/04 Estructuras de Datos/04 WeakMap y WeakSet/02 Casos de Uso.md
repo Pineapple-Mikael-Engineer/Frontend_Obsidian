@@ -11,6 +11,7 @@ tags:
 objeto: WeakMap
 tipo: patron
 draft: false
+order: 2
 ---
 
 # WeakMap y WeakSet — Casos de Uso

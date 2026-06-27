@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - responsive
 draft: false
+order: 3
 ---
 
 # Diseño Fluido

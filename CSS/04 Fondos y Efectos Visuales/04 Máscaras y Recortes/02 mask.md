@@ -13,6 +13,7 @@ valor_inicial: none
 hereda: false
 animable: false
 draft: false
+order: 2
 ---
 
 # mask

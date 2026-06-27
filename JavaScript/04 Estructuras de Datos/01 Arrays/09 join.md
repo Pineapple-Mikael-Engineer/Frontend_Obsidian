@@ -13,6 +13,7 @@ retorna: string
 muta: false
 asincrono: false
 draft: false
+order: 9
 ---
 
 # Array.prototype.join

@@ -13,6 +13,7 @@ retorna: any
 muta: false
 asincrono: true
 draft: false
+order: 3
 ---
 
 # Manejo de Errores (`try/catch`) en `async/await`

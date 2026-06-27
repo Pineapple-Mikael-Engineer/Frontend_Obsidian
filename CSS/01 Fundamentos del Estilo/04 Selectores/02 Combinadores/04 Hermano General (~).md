@@ -8,6 +8,7 @@ tags:
   - arquitectura
 selector: hermano-general
 draft: false
+order: 4
 ---
 
 # Hermano General (~)

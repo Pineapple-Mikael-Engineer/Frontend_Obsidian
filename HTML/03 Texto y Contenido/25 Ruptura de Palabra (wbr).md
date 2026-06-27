@@ -12,6 +12,7 @@ categoria: fraseo
 rol_implicito: ninguno
 vacio: true
 draft: false
+order: 25
 ---
 
 # Ruptura de Palabra (wbr)

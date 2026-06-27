@@ -13,6 +13,7 @@ valor_inicial: "0"
 hereda: false
 animable: false
 draft: false
+order: 3
 ---
 
 # text-stroke

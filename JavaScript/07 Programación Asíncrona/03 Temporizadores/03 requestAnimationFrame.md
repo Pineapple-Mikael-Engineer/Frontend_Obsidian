@@ -9,6 +9,7 @@ tags:
   - api/metodo
   - asincrono
 draft: false
+order: 3
 ---
 
 # requestAnimationFrame

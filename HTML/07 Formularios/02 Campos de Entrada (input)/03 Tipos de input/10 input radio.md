@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: radio
 vacio: true
 draft: false
+order: 10
 ---
 
 # input radio

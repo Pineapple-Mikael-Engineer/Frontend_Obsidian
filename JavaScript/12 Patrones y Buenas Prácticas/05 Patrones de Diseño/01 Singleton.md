@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - patrones
 draft: false
+order: 1
 ---
 
 # Singleton

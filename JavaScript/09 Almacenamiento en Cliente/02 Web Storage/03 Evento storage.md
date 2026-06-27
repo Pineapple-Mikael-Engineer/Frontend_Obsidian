@@ -9,6 +9,7 @@ tags:
   - api/evento
   - almacenamiento
 draft: false
+order: 3
 ---
 
 # Evento `storage`

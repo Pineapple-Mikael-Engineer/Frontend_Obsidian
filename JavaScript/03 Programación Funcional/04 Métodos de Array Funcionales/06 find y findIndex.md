@@ -10,6 +10,7 @@ tags:
   - api/metodo
   - arrays
 draft: false
+order: 6
 ---
 
 # find y findIndex

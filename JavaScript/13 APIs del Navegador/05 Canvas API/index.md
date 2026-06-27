@@ -9,6 +9,7 @@ tags:
   - api/web
   - canvas
 draft: false
+order: 5
 ---
 
 # Canvas API

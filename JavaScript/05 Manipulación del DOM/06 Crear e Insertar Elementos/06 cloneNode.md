@@ -9,6 +9,7 @@ tags:
   - api/metodo
   - dom
 draft: false
+order: 6
 ---
 
 # `cloneNode`

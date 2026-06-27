@@ -11,6 +11,7 @@ categoria: flujo
 rol_implicito: progressbar
 vacio: false
 draft: false
+order: 3
 ---
 
 # Barra de Progreso (progress)

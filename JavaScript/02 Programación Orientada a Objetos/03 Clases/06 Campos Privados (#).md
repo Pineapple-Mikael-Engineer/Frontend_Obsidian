@@ -12,6 +12,7 @@ tags:
 objeto: global
 tipo: concepto
 draft: false
+order: 6
 ---
 
 # Campos Privados (`#`)

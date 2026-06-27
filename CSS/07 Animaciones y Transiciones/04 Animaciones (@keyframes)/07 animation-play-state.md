@@ -12,6 +12,7 @@ valor_inicial: running
 hereda: false
 animable: false
 draft: false
+order: 7
 ---
 
 # animation-play-state

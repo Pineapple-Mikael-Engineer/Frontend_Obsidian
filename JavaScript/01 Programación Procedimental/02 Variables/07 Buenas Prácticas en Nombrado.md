@@ -10,6 +10,7 @@ tags:
   - variables
 tipo: concepto
 draft: false
+order: 6
 ---
 
 # Buenas Prácticas en Nombrado

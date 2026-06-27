@@ -14,6 +14,7 @@ retorna: Worker
 muta: false
 asincrono: true
 draft: false
+order: 1
 ---
 
 # Web Workers

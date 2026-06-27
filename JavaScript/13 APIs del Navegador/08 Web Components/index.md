@@ -10,6 +10,7 @@ tags:
   - api/concepto
   - browser
 draft: false
+order: 7
 ---
 
 # Web Components

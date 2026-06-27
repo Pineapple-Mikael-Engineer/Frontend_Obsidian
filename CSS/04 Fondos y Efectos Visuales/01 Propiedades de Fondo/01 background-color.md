@@ -12,6 +12,7 @@ valor_inicial: transparent
 hereda: false
 animable: true
 draft: false
+order: 1
 ---
 
 # background-color

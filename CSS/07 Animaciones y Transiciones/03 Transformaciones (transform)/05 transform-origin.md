@@ -12,6 +12,7 @@ valor_inicial: "center"
 hereda: false
 animable: true
 draft: false
+order: 5
 ---
 
 # transform-origin

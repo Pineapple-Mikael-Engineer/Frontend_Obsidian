@@ -13,6 +13,7 @@ valor_inicial: normal
 hereda: true
 animable: true
 draft: false
+order: 3
 ---
 
 # font-variation-settings

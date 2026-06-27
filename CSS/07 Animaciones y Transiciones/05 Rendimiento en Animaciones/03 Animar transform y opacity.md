@@ -7,6 +7,7 @@ tags:
   - api/concepto
   - animacion
 draft: false
+order: 3
 ---
 
 # Animar transform y opacity

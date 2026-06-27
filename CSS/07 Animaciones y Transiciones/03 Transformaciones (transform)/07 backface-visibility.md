@@ -12,6 +12,7 @@ valor_inicial: visible
 hereda: false
 animable: false
 draft: false
+order: 7
 ---
 
 # backface-visibility

@@ -13,6 +13,7 @@ retorna: Element | null
 muta: false
 asincrono: false
 draft: false
+order: 4
 ---
 
 # `Element.closest`

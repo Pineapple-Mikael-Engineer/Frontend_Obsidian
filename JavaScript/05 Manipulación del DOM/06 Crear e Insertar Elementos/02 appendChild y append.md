@@ -9,6 +9,7 @@ tags:
   - api/metodo
   - dom
 draft: false
+order: 2
 ---
 
 # `appendChild` y `append`

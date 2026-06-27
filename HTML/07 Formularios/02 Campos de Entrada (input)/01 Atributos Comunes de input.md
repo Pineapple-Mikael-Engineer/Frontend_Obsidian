@@ -12,6 +12,7 @@ categoria: interactivo
 rol_implicito: ninguno
 vacio: true
 draft: false
+order: 1
 ---
 
 # Atributos Comunes de input

@@ -13,6 +13,7 @@ retorna: HTMLCollection
 muta: false
 asincrono: false
 draft: false
+order: 2
 ---
 
 # `getElementsByClassName` y `getElementsByTagName`

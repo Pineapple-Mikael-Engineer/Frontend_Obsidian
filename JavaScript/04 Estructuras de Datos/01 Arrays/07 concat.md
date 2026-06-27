@@ -13,6 +13,7 @@ retorna: Array
 muta: false
 asincrono: false
 draft: false
+order: 7
 ---
 
 # Array.prototype.concat

@@ -7,6 +7,7 @@ tags:
   - api/concepto
   - responsive
 draft: false
+order: 2
 ---
 
 # clamp() para Tipografía Fluida

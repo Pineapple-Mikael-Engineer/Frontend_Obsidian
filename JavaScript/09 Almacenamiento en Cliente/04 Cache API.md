@@ -13,6 +13,7 @@ objeto: caches
 tipo: concepto
 asincrono: true
 draft: false
+order: 1
 ---
 
 # Cache API

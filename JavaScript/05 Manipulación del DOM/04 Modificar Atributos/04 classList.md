@@ -14,6 +14,7 @@ retorna: DOMTokenList
 muta: true
 asincrono: false
 draft: false
+order: 4
 ---
 
 # classList

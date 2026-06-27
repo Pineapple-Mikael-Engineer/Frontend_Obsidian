@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - animacion
 draft: false
+order: 7
 ---
 
 # Animaciones y Transiciones

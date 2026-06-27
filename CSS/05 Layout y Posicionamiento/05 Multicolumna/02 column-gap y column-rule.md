@@ -13,6 +13,7 @@ valor_inicial: normal
 hereda: false
 animable: false
 draft: false
+order: 2
 ---
 
 # column-gap y column-rule

@@ -10,6 +10,7 @@ tags:
   - api/objeto
   - browser
 draft: false
+order: 6
 ---
 
 # `navigator.share`

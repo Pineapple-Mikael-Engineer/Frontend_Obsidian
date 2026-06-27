@@ -15,6 +15,7 @@ retorna: WebSocket
 muta: false
 asincrono: false
 draft: false
+order: 1
 ---
 
 # Conexión Persistente — `WebSocket`

@@ -12,6 +12,7 @@ valor_inicial: none
 hereda: false
 animable: false
 draft: false
+order: 6
 ---
 
 # border-image

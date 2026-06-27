@@ -12,6 +12,7 @@ categoria: flujo
 rol_implicito: blockquote
 vacio: false
 draft: false
+order: 13
 ---
 
 # Citas en Bloque (blockquote)

@@ -13,6 +13,7 @@ valor_inicial: normal
 hereda: true
 animable: false
 draft: false
+order: 1
 ---
 
 # overflow-wrap y word-wrap

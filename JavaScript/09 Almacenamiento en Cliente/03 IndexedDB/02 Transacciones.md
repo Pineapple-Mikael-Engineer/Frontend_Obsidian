@@ -12,6 +12,7 @@ objeto: IDBDatabase
 tipo: concepto
 asincrono: true
 draft: false
+order: 2
 ---
 
 # IndexedDB — Transacciones y operaciones CRUD

@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: group
 vacio: false
 draft: false
+order: 2
 ---
 
 # Agrupación de Campos (fieldset)

@@ -12,6 +12,7 @@ tipo: clase
 retorna: IntersectionObserver
 asincrono: true
 draft: false
+order: 1
 ---
 
 # IntersectionObserver

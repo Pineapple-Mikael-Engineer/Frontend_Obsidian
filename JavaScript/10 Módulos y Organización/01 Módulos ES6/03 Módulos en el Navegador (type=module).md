@@ -13,6 +13,7 @@ tags:
 objeto: global
 tipo: concepto
 draft: false
+order: 3
 ---
 
 # Módulos en el Navegador (type=module)

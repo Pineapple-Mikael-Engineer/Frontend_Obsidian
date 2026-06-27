@@ -12,6 +12,7 @@ categoria: incrustado
 rol_implicito: img
 vacio: false
 draft: false
+order: 1
 ---
 
 # Imagen (img)

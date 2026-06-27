@@ -11,6 +11,7 @@ tags:
   - api/web
   - almacenamiento
 draft: false
+order: 2
 ---
 
 # Atributos de Cookie: expires, path, domain

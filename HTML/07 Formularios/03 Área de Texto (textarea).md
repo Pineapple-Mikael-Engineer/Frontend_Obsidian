@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: textbox
 vacio: false
 draft: false
+order: 2
 ---
 
 # Área de Texto (textarea)

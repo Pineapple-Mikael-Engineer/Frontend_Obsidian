@@ -15,6 +15,7 @@ retorna: Promise
 muta: false
 asincrono: true
 draft: false
+order: 2
 ---
 
 # Crear una Promise

@@ -10,6 +10,7 @@ tags:
 propiedad: ":valid"
 grupo: pseudoclase
 draft: false
+order: 5
 ---
 
 # :valid e :invalid

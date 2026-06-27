@@ -13,6 +13,7 @@ valor_inicial: normal
 hereda: true
 animable: false
 draft: false
+order: 6
 ---
 
 # font-variant

@@ -14,6 +14,7 @@ retorna: void
 muta: false
 asincrono: true
 draft: false
+order: 5
 ---
 
 # Bucles Asíncronos (`for await...of`)

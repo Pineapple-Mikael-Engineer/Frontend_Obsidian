@@ -9,6 +9,7 @@ tags:
   - arquitectura
 selector: tipo
 draft: false
+order: 1
 ---
 
 # Selector de Tipo

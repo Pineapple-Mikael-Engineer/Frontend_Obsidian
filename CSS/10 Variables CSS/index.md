@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - variables
 draft: false
+order: 10
 ---
 
 # Variables CSS (Propiedades Personalizadas)

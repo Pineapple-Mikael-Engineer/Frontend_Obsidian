@@ -13,6 +13,7 @@ valor_inicial: normal
 hereda: true
 animable: true
 draft: false
+order: 5
 ---
 
 # font-stretch

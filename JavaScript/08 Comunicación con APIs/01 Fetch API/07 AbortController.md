@@ -15,6 +15,7 @@ retorna: AbortController
 muta: false
 asincrono: false
 draft: false
+order: 7
 ---
 
 # `AbortController`

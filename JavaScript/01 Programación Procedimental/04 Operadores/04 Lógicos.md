@@ -15,6 +15,7 @@ retorna: uno de los operandos (no necesariamente boolean)
 muta: false
 asincrono: false
 draft: false
+order: 4
 ---
 
 # Operadores Lógicos

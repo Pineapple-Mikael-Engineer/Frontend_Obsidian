@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - asincrono
 draft: false
+order: 1
 ---
 
 # Patrón Básico de Callbacks

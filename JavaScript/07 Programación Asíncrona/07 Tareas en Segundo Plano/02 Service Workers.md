@@ -14,6 +14,7 @@ retorna: ServiceWorkerRegistration
 muta: false
 asincrono: true
 draft: false
+order: 2
 ---
 
 # Service Workers

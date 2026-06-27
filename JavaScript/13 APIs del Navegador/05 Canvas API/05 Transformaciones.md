@@ -13,6 +13,7 @@ tags:
 objeto: CanvasRenderingContext2D
 tipo: concepto
 draft: false
+order: 5
 ---
 
 # Transformaciones

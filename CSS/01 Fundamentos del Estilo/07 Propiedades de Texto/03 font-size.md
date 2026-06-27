@@ -12,6 +12,7 @@ valor_inicial: medium
 hereda: true
 animable: true
 draft: false
+order: 3
 ---
 
 # font-size

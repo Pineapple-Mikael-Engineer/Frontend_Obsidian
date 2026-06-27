@@ -12,6 +12,7 @@ categoria: ninguna
 rol_implicito: row
 vacio: false
 draft: false
+order: 2
 ---
 
 # Fila de Tabla (tr)

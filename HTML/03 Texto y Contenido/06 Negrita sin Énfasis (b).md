@@ -12,6 +12,7 @@ categoria: fraseo
 rol_implicito: ninguno
 vacio: false
 draft: false
+order: 6
 ---
 
 # Negrita sin Énfasis (b)

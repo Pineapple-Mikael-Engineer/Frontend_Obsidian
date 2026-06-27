@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - dom
 draft: false
+order: 9
 ---
 
 # Actualizaciones Eficientes del DOM

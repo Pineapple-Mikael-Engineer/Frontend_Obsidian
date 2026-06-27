@@ -15,6 +15,7 @@ retorna: Array
 muta: true
 asincrono: false
 draft: false
+order: 12
 ---
 
 # Array.prototype.fill y copyWithin

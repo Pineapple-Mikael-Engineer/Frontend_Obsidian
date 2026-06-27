@@ -15,6 +15,7 @@ retorna: Map
 muta: true
 asincrono: false
 draft: false
+order: 1
 ---
 
 # Map — Creación, `set` y `get`

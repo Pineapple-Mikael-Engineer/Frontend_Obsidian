@@ -10,6 +10,7 @@ tags:
 propiedad: ":has"
 grupo: pseudoclase
 draft: false
+order: 3
 ---
 
 # :has()

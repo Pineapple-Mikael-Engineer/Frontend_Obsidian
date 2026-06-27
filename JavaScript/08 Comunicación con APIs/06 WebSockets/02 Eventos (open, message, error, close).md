@@ -18,6 +18,7 @@ retorna: undefined
 muta: false
 asincrono: true
 draft: false
+order: 2
 ---
 
 # Eventos WebSocket — `open`, `message`, `error`, `close`

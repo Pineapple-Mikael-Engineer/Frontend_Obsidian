@@ -13,6 +13,7 @@ valor_inicial: normal
 hereda: false
 animable: false
 draft: false
+order: 3
 ---
 
 # Modos de Mezcla (mix-blend-mode, background-blend-mode)

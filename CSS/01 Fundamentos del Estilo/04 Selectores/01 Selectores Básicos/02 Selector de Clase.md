@@ -8,6 +8,7 @@ tags:
   - arquitectura
 selector: clase
 draft: false
+order: 2
 ---
 
 # Selector de Clase

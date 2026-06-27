@@ -10,6 +10,7 @@ tags:
   - variables
 tipo: concepto
 draft: false
+order: 1
 ---
 
 # Global Scope

@@ -13,6 +13,7 @@ retorna: XMLHttpRequest
 muta: false
 asincrono: true
 draft: false
+order: 2
 ---
 
 # XMLHttpRequest (legado)

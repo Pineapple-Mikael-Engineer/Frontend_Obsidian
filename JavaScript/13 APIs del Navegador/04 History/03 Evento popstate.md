@@ -9,6 +9,7 @@ tags:
   - api/evento
   - browser
 draft: false
+order: 3
 ---
 
 # Evento `popstate`

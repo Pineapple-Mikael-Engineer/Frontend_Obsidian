@@ -9,6 +9,7 @@ tags:
 propiedad: "::first-line"
 grupo: pseudoelemento
 draft: false
+order: 4
 ---
 
 # ::first-line

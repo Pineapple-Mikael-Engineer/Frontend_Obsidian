@@ -10,6 +10,7 @@ tags:
   - api/metodo
   - funcional
 draft: false
+order: 4
 ---
 
 # concat y slice

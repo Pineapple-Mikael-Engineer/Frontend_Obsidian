@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - animacion
 draft: false
+order: 1
 ---
 
 # Curvas (ease, linear, ease-in-out)

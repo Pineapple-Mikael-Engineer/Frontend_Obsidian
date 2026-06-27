@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: searchbox
 vacio: true
 draft: false
+order: 7
 ---
 
 # input search

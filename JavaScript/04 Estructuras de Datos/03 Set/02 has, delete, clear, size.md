@@ -15,6 +15,7 @@ retorna: boolean
 muta: true
 asincrono: false
 draft: false
+order: 2
 ---
 
 # Set — `has`, `delete`, `clear`, `size`
