@@ -15,6 +15,7 @@ retorna: string | null
 muta: true
 asincrono: false
 draft: false
+order: 1
 ---
 
 # getAttribute y setAttribute

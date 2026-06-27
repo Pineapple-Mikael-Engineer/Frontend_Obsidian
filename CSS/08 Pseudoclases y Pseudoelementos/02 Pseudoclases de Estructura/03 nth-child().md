@@ -10,6 +10,7 @@ tags:
 propiedad: ":nth-child"
 grupo: pseudoclase
 draft: false
+order: 3
 ---
 
 # :nth-child()

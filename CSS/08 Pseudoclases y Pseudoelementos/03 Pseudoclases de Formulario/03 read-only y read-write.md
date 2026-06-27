@@ -10,6 +10,7 @@ tags:
 propiedad: ":read-only"
 grupo: pseudoclase
 draft: false
+order: 3
 ---
 
 # :read-only y :read-write

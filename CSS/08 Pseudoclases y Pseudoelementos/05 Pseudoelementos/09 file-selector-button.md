@@ -9,6 +9,7 @@ tags:
 propiedad: "::file-selector-button"
 grupo: pseudoelemento
 draft: false
+order: 9
 ---
 
 # ::file-selector-button

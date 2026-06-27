@@ -9,6 +9,7 @@ tags:
 propiedad: ":where"
 grupo: pseudoclase
 draft: false
+order: 2
 ---
 
 # :where()

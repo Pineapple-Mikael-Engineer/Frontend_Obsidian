@@ -13,6 +13,7 @@ valor_inicial: clip
 hereda: false
 animable: false
 draft: false
+order: 5
 ---
 
 # text-overflow

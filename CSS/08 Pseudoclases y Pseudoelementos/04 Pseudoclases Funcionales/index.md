@@ -7,6 +7,7 @@ tags:
   - api/concepto
   - selectores
 draft: false
+order: 4
 ---
 
 # Pseudoclases Funcionales

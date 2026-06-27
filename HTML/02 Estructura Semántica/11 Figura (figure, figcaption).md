@@ -12,6 +12,7 @@ categoria: flujo
 rol_implicito: figure
 vacio: false
 draft: false
+order: 11
 ---
 
 # Figura (figure, figcaption)

@@ -10,6 +10,7 @@ tags:
 propiedad: ":disabled"
 grupo: pseudoclase
 draft: false
+order: 2
 ---
 
 # :disabled y :enabled

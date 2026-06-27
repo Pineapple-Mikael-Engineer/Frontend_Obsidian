@@ -14,6 +14,7 @@ categoria: fraseo
 rol_implicito: ninguno
 vacio: false
 draft: false
+order: 22
 ---
 
 # Superíndice y Subíndice (sup, sub)

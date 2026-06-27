@@ -12,6 +12,7 @@ valor_inicial: "0% 0%"
 hereda: false
 animable: true
 draft: false
+order: 4
 ---
 
 # background-position

@@ -14,6 +14,7 @@ retorna: Array
 muta: true
 asincrono: false
 draft: false
+order: 10
 ---
 
 # Array.prototype.sort

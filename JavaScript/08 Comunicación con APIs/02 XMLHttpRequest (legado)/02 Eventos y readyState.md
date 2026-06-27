@@ -14,6 +14,7 @@ retorna: undefined
 muta: false
 asincrono: true
 draft: false
+order: 2
 ---
 
 # Eventos y `readyState` — ciclo de vida de una petición XHR

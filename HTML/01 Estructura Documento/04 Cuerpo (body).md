@@ -11,6 +11,7 @@ categoria: seccionado
 rol_implicito: ninguno
 vacio: false
 draft: false
+order: 3
 ---
 
 # Cuerpo (body)

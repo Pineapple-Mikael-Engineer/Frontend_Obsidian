@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: button
 vacio: true
 draft: false
+order: 21
 ---
 
 # input reset

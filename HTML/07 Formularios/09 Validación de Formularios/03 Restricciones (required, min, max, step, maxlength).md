@@ -12,6 +12,7 @@ categoria: interactivo
 rol_implicito: ninguno
 vacio: true
 draft: false
+order: 3
 ---
 
 # Restricciones (required, min, max, step, maxlength)

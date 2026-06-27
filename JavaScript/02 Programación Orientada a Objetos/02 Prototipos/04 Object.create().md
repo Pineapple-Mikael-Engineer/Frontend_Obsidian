@@ -14,6 +14,7 @@ retorna: object
 muta: false
 asincrono: false
 draft: false
+order: 4
 ---
 
 # `Object.create()`

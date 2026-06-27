@@ -10,6 +10,7 @@ tags:
   - api/concepto
   - patrones
 draft: false
+order: 2
 ---
 
 # Observer (Pub-Sub)

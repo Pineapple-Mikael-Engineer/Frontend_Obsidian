@@ -12,6 +12,7 @@ tipo: clase
 retorna: ResizeObserver
 asincrono: true
 draft: false
+order: 3
 ---
 
 # ResizeObserver

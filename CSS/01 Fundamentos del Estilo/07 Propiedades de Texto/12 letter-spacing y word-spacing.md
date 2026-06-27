@@ -14,6 +14,7 @@ valor_inicial: normal
 hereda: true
 animable: true
 draft: false
+order: 12
 ---
 
 # letter-spacing y word-spacing

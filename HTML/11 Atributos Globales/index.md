@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - atributos
 draft: false
+order: 11
 ---
 
 # Atributos Globales

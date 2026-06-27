@@ -8,6 +8,7 @@ tags:
   - dom
   - index
 draft: false
+order: 7
 ---
 
 # Eliminar Elementos

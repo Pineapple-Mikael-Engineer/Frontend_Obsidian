@@ -13,6 +13,7 @@ retorna: "-"
 muta: false
 asincrono: false
 draft: false
+order: 1
 ---
 
 # Tipos de Errores

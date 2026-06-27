@@ -10,6 +10,7 @@ tags:
   - api/concepto
   - funcional
 draft: false
+order: 4
 ---
 
 # Composición de Funciones

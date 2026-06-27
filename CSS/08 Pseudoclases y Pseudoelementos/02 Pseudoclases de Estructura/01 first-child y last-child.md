@@ -10,6 +10,7 @@ tags:
 propiedad: ":first-child"
 grupo: pseudoclase
 draft: false
+order: 1
 ---
 
 # :first-child y :last-child

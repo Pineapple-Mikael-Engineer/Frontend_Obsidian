@@ -9,6 +9,7 @@ tags:
 propiedad: ":root"
 grupo: pseudoclase
 draft: false
+order: 7
 ---
 
 # :root

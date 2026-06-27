@@ -11,6 +11,7 @@ categoria: incrustado
 rol_implicito: ninguno
 vacio: false
 draft: false
+order: 1
 ---
 
 # Lienzo (canvas)

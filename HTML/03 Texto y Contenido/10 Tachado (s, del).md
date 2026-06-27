@@ -13,6 +13,7 @@ categoria: fraseo
 rol_implicito: deletion
 vacio: false
 draft: false
+order: 10
 ---
 
 # Tachado (s, del)

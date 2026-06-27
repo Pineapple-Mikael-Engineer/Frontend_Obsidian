@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: option
 vacio: false
 draft: false
+order: 2
 ---
 
 # Opciones (option)

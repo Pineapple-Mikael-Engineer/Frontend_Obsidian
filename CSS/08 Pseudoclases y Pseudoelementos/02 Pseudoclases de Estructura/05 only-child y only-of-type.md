@@ -10,6 +10,7 @@ tags:
 propiedad: ":only-child"
 grupo: pseudoclase
 draft: false
+order: 5
 ---
 
 # :only-child y :only-of-type

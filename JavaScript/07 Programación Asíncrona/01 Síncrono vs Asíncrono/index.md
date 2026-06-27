@@ -13,6 +13,7 @@ retorna: undefined
 muta: false
 asincrono: false
 draft: false
+order: 1
 ---
 
 # Síncrono vs Asíncrono

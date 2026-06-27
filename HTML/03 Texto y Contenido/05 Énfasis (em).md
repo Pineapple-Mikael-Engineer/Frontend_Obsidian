@@ -12,6 +12,7 @@ categoria: fraseo
 rol_implicito: emphasis
 vacio: false
 draft: false
+order: 5
 ---
 
 # Énfasis (em)

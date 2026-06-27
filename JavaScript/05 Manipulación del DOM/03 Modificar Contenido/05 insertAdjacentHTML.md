@@ -13,6 +13,7 @@ retorna: undefined
 muta: true
 asincrono: false
 draft: false
+order: 5
 ---
 
 # insertAdjacentHTML

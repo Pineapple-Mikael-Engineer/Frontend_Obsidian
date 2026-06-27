@@ -7,6 +7,7 @@ tags:
   - api/concepto
   - tipografia
 draft: false
+order: 3
 ---
 
 # Decoración de Texto Avanzada

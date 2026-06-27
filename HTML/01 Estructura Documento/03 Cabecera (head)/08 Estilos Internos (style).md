@@ -12,6 +12,7 @@ categoria: metadatos
 rol_implicito: ninguno
 vacio: false
 draft: false
+order: 8
 ---
 
 # Estilos Internos (style)

@@ -14,6 +14,7 @@ retorna: Error
 muta: false
 asincrono: false
 draft: false
+order: 2
 ---
 
 # Errores Personalizados (extends Error)

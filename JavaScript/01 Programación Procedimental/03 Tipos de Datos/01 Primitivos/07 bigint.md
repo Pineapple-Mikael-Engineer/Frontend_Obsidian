@@ -11,6 +11,7 @@ tags:
 objeto: BigInt
 tipo: concepto
 draft: false
+order: 7
 ---
 
 # bigint

@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: group
 vacio: false
 draft: false
+order: 3
 ---
 
 # Agrupación de Opciones (optgroup)

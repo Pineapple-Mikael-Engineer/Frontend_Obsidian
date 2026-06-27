@@ -12,6 +12,7 @@ categoria: metadatos
 rol_implicito: ninguno
 vacio: true
 draft: false
+order: 11
 ---
 
 # Enlace Canónico (link rel canonical)

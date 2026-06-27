@@ -12,6 +12,7 @@ tags:
 objeto: global
 tipo: concepto
 draft: false
+order: 7
 ---
 
 # Getters y Setters

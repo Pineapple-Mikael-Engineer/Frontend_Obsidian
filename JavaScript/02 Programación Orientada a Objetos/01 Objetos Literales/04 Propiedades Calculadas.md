@@ -11,6 +11,7 @@ tags:
 objeto: Object
 tipo: concepto
 draft: false
+order: 4
 ---
 
 # Propiedades Calculadas

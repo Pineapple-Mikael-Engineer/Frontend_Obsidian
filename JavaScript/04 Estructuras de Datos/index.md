@@ -7,6 +7,7 @@ tags:
   - javascript
   - estructuras-datos
 draft: false
+order: 4
 ---
 
 # Estructuras de Datos

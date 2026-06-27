@@ -13,6 +13,7 @@ tipo: operador
 muta: false
 asincrono: false
 draft: false
+order: 13
 ---
 
 # Destructuring de Arrays

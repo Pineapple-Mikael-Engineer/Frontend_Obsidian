@@ -14,6 +14,7 @@ retorna: Array
 muta: true
 asincrono: false
 draft: false
+order: 11
 ---
 
 # Array.prototype.reverse

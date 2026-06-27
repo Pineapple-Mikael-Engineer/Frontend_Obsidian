@@ -12,6 +12,7 @@ categoria: metadatos
 rol_implicito: ninguno
 vacio: true
 draft: false
+order: 1
 ---
 
 # Codificación de Caracteres (meta charset)

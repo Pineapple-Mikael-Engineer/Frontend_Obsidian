@@ -14,6 +14,7 @@ retorna: undefined
 muta: false
 asincrono: true
 draft: false
+order: 1
 ---
 
 # `open` y `send` — ciclo de vida de una petición XHR

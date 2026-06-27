@@ -8,6 +8,7 @@ tags:
   - arquitectura
 selector: hermano-adyacente
 draft: false
+order: 3
 ---
 
 # Hermano Adyacente (+)

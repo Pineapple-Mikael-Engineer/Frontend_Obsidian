@@ -12,6 +12,7 @@ valor_inicial: "ver sub-propiedades"
 hereda: false
 animable: true
 draft: false
+order: 4
 ---
 
 # Shorthand border

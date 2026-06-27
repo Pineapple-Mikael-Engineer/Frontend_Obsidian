@@ -12,6 +12,7 @@ valor_inicial: inline
 hereda: false
 animable: false
 draft: false
+order: 3
 ---
 
 # display inline-block

@@ -13,6 +13,7 @@ tipo: clase
 muta: false
 asincrono: true
 draft: false
+order: 3
 ---
 
 # Enviar FormData con Fetch

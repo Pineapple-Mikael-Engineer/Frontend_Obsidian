@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: spinbutton
 vacio: true
 draft: false
+order: 4
 ---
 
 # input number

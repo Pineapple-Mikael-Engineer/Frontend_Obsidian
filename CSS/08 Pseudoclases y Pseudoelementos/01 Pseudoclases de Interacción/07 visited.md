@@ -9,6 +9,7 @@ tags:
 propiedad: ":visited"
 grupo: pseudoclase
 draft: false
+order: 7
 ---
 
 # :visited

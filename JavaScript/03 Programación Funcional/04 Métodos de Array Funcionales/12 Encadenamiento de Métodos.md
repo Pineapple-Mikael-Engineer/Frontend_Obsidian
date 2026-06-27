@@ -9,6 +9,7 @@ tags:
   - api/metodo
   - arrays
 draft: false
+order: 12
 ---
 
 # Encadenamiento de Métodos

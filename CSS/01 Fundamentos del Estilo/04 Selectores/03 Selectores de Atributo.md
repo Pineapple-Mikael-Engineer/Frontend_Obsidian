@@ -8,6 +8,7 @@ tags:
   - arquitectura
 selector: atributo
 draft: false
+order: 1
 ---
 
 # Selectores de Atributo

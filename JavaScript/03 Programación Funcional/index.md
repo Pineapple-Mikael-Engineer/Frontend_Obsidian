@@ -7,6 +7,7 @@ tags:
   - javascript
   - api/concepto
 draft: false
+order: 3
 ---
 
 # Programación Funcional en JavaScript

@@ -12,6 +12,7 @@ tags:
 objeto: Object
 tipo: concepto
 draft: false
+order: 2
 ---
 
 # Prototipos

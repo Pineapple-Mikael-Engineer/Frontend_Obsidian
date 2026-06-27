@@ -7,6 +7,7 @@ tags:
   - api/funcion
   - arquitectura
 draft: false
+order: 6
 ---
 
 # calc()

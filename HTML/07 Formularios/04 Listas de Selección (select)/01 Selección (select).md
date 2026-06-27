@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: combobox
 vacio: false
 draft: false
+order: 1
 ---
 
 # Selección (select)

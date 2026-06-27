@@ -13,6 +13,7 @@ retorna: Array
 muta: true
 asincrono: false
 draft: false
+order: 5
 ---
 
 # Array.prototype.splice

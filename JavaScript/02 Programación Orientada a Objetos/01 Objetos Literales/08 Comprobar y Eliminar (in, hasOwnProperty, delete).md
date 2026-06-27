@@ -13,6 +13,7 @@ tags:
 objeto: Object
 tipo: concepto
 draft: false
+order: 8
 ---
 
 # Comprobar y Eliminar (in, hasOwnProperty, delete)

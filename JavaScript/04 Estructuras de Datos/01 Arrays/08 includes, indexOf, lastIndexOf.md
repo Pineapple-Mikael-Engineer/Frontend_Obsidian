@@ -16,6 +16,7 @@ retorna: boolean | number
 muta: false
 asincrono: false
 draft: false
+order: 8
 ---
 
 # Array — includes, indexOf, lastIndexOf

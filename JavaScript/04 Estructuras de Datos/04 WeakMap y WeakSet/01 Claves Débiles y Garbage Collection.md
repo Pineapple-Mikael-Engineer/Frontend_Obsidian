@@ -11,6 +11,7 @@ tags:
 objeto: WeakMap
 tipo: concepto
 draft: false
+order: 1
 ---
 
 # WeakMap y WeakSet — Claves Débiles y Garbage Collection

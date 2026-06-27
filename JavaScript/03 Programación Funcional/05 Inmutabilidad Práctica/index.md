@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - funcional
 draft: false
+order: 5
 ---
 
 # Inmutabilidad Práctica

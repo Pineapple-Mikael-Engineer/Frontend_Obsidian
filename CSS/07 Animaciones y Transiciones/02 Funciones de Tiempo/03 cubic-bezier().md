@@ -7,6 +7,7 @@ tags:
   - api/funcion
   - animacion
 draft: false
+order: 3
 ---
 
 # cubic-bezier()

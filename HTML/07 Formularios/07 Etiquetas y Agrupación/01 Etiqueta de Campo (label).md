@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: ninguno
 vacio: false
 draft: false
+order: 1
 ---
 
 # Etiqueta de Campo (label)

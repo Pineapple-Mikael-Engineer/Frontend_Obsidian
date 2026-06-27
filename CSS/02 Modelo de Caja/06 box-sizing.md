@@ -13,6 +13,7 @@ valor_inicial: content-box
 hereda: false
 animable: false
 draft: false
+order: 4
 ---
 
 # box-sizing

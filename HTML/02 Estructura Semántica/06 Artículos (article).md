@@ -11,6 +11,7 @@ categoria: seccionado
 rol_implicito: article
 vacio: false
 draft: false
+order: 6
 ---
 
 # Artículos (article)

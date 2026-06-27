@@ -7,6 +7,7 @@ tags:
   - api/concepto
   - responsive
 draft: false
+order: 3
 ---
 
 # Enfoques de Diseño

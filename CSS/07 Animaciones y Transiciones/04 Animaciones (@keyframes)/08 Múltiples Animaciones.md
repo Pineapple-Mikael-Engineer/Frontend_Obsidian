@@ -7,6 +7,7 @@ tags:
   - api/concepto
   - animacion
 draft: false
+order: 8
 ---
 
 # Múltiples Animaciones

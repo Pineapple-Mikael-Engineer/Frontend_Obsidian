@@ -16,6 +16,7 @@ retorna: MapIterator
 muta: false
 asincrono: false
 draft: false
+order: 2
 ---
 
 # Map — Iteradores: `keys`, `values`, `entries`

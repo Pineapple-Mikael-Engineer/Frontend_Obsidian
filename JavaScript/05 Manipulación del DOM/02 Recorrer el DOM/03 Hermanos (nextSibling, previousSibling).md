@@ -16,6 +16,7 @@ retorna: Node | Element | null
 muta: false
 asincrono: false
 draft: false
+order: 3
 ---
 
 # Hermanos: `nextSibling` y `previousSibling`

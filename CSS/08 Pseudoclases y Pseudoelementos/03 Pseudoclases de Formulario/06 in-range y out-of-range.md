@@ -10,6 +10,7 @@ tags:
 propiedad: ":in-range"
 grupo: pseudoclase
 draft: false
+order: 6
 ---
 
 # :in-range y :out-of-range

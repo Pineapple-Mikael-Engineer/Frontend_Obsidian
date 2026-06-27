@@ -10,6 +10,7 @@ tags:
 propiedad: "::before"
 grupo: pseudoelemento
 draft: false
+order: 1
 ---
 
 # ::before y ::after

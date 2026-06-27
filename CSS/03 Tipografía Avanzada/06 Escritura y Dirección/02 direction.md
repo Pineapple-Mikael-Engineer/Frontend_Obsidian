@@ -13,6 +13,7 @@ valor_inicial: ltr
 hereda: true
 animable: false
 draft: false
+order: 2
 ---
 
 # direction

@@ -13,6 +13,7 @@ retorna: boolean
 muta: false
 asincrono: false
 draft: false
+order: 2
 ---
 
 # instanceof

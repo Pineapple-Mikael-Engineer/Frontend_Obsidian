@@ -10,6 +10,7 @@ tags:
 propiedad: ":nth-of-type"
 grupo: pseudoclase
 draft: false
+order: 4
 ---
 
 # :nth-of-type()

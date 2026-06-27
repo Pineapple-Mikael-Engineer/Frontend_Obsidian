@@ -15,6 +15,7 @@ retorna: Promise<Response>
 muta: false
 asincrono: true
 draft: false
+order: 3
 ---
 
 # `fetch` — mode, credentials, cache

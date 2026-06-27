@@ -10,6 +10,7 @@ tags:
 objeto: ArrayBuffer
 tipo: clase
 draft: false
+order: 1
 ---
 
 # ArrayBuffer

@@ -12,6 +12,7 @@ valor_inicial: horizontal-tb
 hereda: true
 animable: false
 draft: false
+order: 1
 ---
 
 # writing-mode

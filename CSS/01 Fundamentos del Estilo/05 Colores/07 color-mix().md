@@ -7,6 +7,7 @@ tags:
   - api/funcion
   - fondos
 draft: false
+order: 7
 ---
 
 # color-mix()

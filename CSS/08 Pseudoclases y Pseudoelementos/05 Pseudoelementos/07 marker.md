@@ -9,6 +9,7 @@ tags:
 propiedad: "::marker"
 grupo: pseudoelemento
 draft: false
+order: 7
 ---
 
 # ::marker

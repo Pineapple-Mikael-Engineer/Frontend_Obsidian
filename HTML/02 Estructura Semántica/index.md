@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - semantica
 draft: false
+order: 2
 ---
 
 # Estructura Semántica

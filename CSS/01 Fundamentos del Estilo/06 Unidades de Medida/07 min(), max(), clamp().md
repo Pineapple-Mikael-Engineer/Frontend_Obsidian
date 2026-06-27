@@ -8,6 +8,7 @@ tags:
   - api/funcion
   - responsive
 draft: false
+order: 7
 ---
 
 # min(), max(), clamp()

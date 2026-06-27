@@ -13,6 +13,7 @@ tipo: concepto
 muta: true
 asincrono: false
 draft: false
+order: 3
 ---
 
 # Atributos Directos

@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - encapsulacion
 draft: false
+order: 1
 ---
 
 # Closures para Datos Privados

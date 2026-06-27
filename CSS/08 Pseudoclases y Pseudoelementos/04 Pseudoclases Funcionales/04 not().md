@@ -9,6 +9,7 @@ tags:
 propiedad: ":not"
 grupo: pseudoclase
 draft: false
+order: 4
 ---
 
 # :not()

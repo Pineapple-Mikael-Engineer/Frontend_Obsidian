@@ -12,6 +12,7 @@ valor_inicial: normal
 hereda: true
 animable: true
 draft: false
+order: 4
 ---
 
 # font-weight

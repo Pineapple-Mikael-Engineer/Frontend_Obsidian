@@ -13,6 +13,7 @@ valor_inicial: "1"
 hereda: false
 animable: false
 draft: false
+order: 4
 ---
 
 # animation-iteration-count

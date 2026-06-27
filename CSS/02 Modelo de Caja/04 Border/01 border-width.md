@@ -12,6 +12,7 @@ valor_inicial: medium
 hereda: false
 animable: true
 draft: false
+order: 1
 ---
 
 # border-width

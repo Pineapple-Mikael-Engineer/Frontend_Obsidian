@@ -18,6 +18,7 @@ tags:
 objeto: TypedArray
 tipo: clase
 draft: false
+order: 3
 ---
 
 # Vistas TypedArray

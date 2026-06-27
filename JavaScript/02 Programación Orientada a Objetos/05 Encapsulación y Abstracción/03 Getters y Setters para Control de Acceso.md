@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - encapsulacion
 draft: false
+order: 3
 ---
 
 # Getters y Setters para Control de Acceso

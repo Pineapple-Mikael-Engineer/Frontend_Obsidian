@@ -14,6 +14,7 @@ valor_inicial: auto
 hereda: false
 animable: false
 draft: false
+order: 10
 ---
 
 # Grid Implícito (auto-rows, auto-columns, auto-flow)

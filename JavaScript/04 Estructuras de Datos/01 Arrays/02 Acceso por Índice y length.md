@@ -15,6 +15,7 @@ retorna: any
 muta: false
 asincrono: false
 draft: false
+order: 2
 ---
 
 # Array — Acceso por Índice y `length`

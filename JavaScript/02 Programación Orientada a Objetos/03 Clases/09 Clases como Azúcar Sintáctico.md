@@ -12,6 +12,7 @@ tags:
 objeto: global
 tipo: concepto
 draft: false
+order: 9
 ---
 
 # Clases como Azúcar Sintáctico

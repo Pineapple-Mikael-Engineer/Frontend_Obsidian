@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - funcional
 draft: false
+order: 1
 ---
 
 # Conceptos Fundamentales de Programación Funcional

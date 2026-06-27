@@ -10,6 +10,7 @@ tags:
   - api/metodo
   - dom
 draft: false
+order: 7
 ---
 
 # `replaceChild` y `replaceWith`

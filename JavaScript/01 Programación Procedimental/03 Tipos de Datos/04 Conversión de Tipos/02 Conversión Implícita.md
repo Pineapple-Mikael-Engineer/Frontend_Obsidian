@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - tipos
 draft: false
+order: 2
 ---
 
 # Conversión Implícita (Coerción)

@@ -12,6 +12,7 @@ tags:
   - api/objeto
   - browser
 draft: false
+order: 3
 ---
 
 # `alert`, `confirm` y `prompt`

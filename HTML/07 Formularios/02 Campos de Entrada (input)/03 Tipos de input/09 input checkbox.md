@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: checkbox
 vacio: true
 draft: false
+order: 9
 ---
 
 # input checkbox

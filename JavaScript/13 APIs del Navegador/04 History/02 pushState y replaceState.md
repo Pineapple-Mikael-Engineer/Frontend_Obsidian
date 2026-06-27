@@ -11,6 +11,7 @@ tags:
   - api/objeto
   - browser
 draft: false
+order: 2
 ---
 
 # `history.pushState()` y `history.replaceState()`

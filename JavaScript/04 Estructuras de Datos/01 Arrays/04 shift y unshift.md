@@ -15,6 +15,7 @@ retorna: any | number
 muta: true
 asincrono: false
 draft: false
+order: 4
 ---
 
 # Array.prototype.shift y unshift

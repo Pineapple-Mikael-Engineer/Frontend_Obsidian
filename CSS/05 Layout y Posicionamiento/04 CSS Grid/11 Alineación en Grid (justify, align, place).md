@@ -14,6 +14,7 @@ valor_inicial: stretch
 hereda: false
 animable: false
 draft: false
+order: 11
 ---
 
 # Alineación en Grid (justify, align, place)

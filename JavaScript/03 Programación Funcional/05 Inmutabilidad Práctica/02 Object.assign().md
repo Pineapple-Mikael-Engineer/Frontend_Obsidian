@@ -8,6 +8,7 @@ tags:
   - api/funcion
   - funcional
 draft: false
+order: 2
 ---
 
 # Object.assign()

@@ -12,6 +12,7 @@ categoria: seccionado
 rol_implicito: complementary
 vacio: false
 draft: false
+order: 7
 ---
 
 # Contenido Complementario (aside)

@@ -10,6 +10,7 @@ tags:
   - api/metodo
   - arrays
 draft: false
+order: 7
 ---
 
 # findLast y findLastIndex

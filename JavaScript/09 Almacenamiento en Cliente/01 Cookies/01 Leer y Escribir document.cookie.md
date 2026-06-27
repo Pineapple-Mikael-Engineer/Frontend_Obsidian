@@ -11,6 +11,7 @@ tags:
 objeto: document
 tipo: propiedad
 draft: false
+order: 1
 ---
 
 # Leer y Escribir `document.cookie`

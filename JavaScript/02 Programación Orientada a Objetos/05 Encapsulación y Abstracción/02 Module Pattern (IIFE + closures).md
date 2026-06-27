@@ -10,6 +10,7 @@ tags:
   - api/concepto
   - encapsulacion
 draft: false
+order: 2
 ---
 
 # Module Pattern (IIFE + closures)

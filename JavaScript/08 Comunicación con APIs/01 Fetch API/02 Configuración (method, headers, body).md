@@ -14,6 +14,7 @@ retorna: Promise<Response>
 muta: false
 asincrono: true
 draft: false
+order: 2
 ---
 
 # Configuración de `fetch` — method, headers, body

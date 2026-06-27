@@ -12,6 +12,7 @@ valor_inicial: "weight style small-caps"
 hereda: true
 animable: false
 draft: false
+order: 7
 ---
 
 # font-synthesis

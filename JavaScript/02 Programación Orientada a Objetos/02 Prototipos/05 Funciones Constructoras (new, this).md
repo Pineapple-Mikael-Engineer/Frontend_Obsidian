@@ -15,6 +15,7 @@ tipo: concepto
 muta: false
 asincrono: false
 draft: false
+order: 5
 ---
 
 # Funciones Constructoras (`new`, `this`)

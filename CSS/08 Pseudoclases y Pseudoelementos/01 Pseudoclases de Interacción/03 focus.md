@@ -9,6 +9,7 @@ tags:
 propiedad: ":focus"
 grupo: pseudoclase
 draft: false
+order: 3
 ---
 
 # :focus

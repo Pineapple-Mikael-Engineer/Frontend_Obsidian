@@ -13,6 +13,7 @@ retorna: Promise
 muta: false
 asincrono: true
 draft: false
+order: 4
 ---
 
 # Paralelismo con `Promise.all`

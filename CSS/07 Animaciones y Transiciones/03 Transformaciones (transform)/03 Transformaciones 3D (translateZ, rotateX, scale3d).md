@@ -9,6 +9,7 @@ tags:
   - api/funcion
   - animacion
 draft: false
+order: 3
 ---
 
 # Transformaciones 3D (translateZ, rotateX, scale3d)

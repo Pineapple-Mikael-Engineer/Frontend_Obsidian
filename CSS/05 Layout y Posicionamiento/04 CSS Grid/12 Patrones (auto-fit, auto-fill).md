@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - layout
 draft: false
+order: 12
 ---
 
 # Patrones (auto-fit, auto-fill)

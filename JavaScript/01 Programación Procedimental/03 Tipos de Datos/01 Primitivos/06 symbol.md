@@ -11,6 +11,7 @@ tags:
 objeto: Symbol
 tipo: concepto
 draft: false
+order: 6
 ---
 
 # symbol

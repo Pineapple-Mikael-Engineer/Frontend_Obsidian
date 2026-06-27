@@ -12,6 +12,7 @@ tags:
 objeto: Object
 tipo: concepto
 draft: false
+order: 6
 ---
 
 # Getters y Setters

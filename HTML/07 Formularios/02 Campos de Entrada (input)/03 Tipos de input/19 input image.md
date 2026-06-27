@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: button
 vacio: true
 draft: false
+order: 19
 ---
 
 # input image

@@ -14,6 +14,7 @@ tipo: concepto
 muta: false
 asincrono: false
 draft: false
+order: 6
 ---
 
 # Herencia Prototípica

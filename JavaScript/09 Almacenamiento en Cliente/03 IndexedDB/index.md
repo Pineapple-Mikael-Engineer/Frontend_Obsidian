@@ -8,6 +8,7 @@ tags:
   - api/web
   - almacenamiento
 draft: false
+order: 3
 ---
 
 # IndexedDB

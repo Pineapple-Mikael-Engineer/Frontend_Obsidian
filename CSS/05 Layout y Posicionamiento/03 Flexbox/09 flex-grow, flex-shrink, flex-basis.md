@@ -15,6 +15,7 @@ valor_inicial: "0 1 auto"
 hereda: false
 animable: true
 draft: false
+order: 9
 ---
 
 # flex-grow, flex-shrink, flex-basis

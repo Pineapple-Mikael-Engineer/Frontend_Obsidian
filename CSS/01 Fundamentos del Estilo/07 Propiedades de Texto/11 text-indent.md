@@ -12,6 +12,7 @@ valor_inicial: "0"
 hereda: true
 animable: true
 draft: false
+order: 11
 ---
 
 # text-indent

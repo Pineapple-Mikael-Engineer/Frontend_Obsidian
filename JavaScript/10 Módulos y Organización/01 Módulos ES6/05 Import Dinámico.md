@@ -15,6 +15,7 @@ tipo: funcion
 retorna: Promise<Module>
 asincrono: true
 draft: false
+order: 5
 ---
 
 # Import Dinámico

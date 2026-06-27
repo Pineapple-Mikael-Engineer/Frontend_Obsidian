@@ -13,6 +13,7 @@ tipo: concepto
 muta: false
 asincrono: false
 draft: false
+order: 2
 ---
 
 # `this` en Función — Default binding

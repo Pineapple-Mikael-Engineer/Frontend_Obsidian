@@ -16,6 +16,7 @@ retorna: Promise
 muta: false
 asincrono: true
 draft: false
+order: 5
 ---
 
 # Procesar Respuesta — `json`, `text`, `blob`, `arrayBuffer`

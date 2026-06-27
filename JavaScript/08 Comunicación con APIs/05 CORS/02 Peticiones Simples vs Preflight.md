@@ -8,6 +8,7 @@ tags:
   - javascript
   - red
 draft: false
+order: 2
 ---
 
 # Peticiones Simples vs Preflight

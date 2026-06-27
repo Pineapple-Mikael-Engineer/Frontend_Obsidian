@@ -11,6 +11,7 @@ tags:
 objeto: Set
 tipo: patron
 draft: false
+order: 3
 ---
 
 # Set — Eliminar Duplicados

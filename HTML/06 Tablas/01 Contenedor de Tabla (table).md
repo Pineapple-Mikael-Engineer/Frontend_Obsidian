@@ -11,6 +11,7 @@ categoria: flujo
 rol_implicito: table
 vacio: false
 draft: false
+order: 1
 ---
 
 # Contenedor de Tabla (table)

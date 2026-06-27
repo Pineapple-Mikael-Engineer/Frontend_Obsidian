@@ -12,6 +12,7 @@ valor_inicial: repeat
 hereda: false
 animable: false
 draft: false
+order: 3
 ---
 
 # background-repeat

@@ -14,6 +14,7 @@ retorna: el valor asignado
 muta: true
 asincrono: false
 draft: false
+order: 1
 ---
 
 # Operador de Asignación

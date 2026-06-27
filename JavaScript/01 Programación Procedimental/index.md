@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - sintaxis
 draft: false
+order: 1
 ---
 
 # Programación Procedimental en JavaScript

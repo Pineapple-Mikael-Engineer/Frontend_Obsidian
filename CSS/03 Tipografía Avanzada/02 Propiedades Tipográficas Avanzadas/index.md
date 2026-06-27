@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - tipografia
 draft: false
+order: 2
 ---
 
 # Propiedades Tipográficas Avanzadas

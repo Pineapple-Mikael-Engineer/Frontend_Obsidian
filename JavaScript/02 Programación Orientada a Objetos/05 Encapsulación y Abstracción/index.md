@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - encapsulacion
 draft: false
+order: 5
 ---
 
 # Encapsulación y Abstracción

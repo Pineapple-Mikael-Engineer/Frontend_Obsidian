@@ -13,6 +13,7 @@ objeto: global
 tipo: concepto
 asincrono: true
 draft: false
+order: 6
 ---
 
 # for await...of

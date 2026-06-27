@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - responsive
 draft: false
+order: 6
 ---
 
 # Preferencias (prefers-color-scheme, prefers-reduced-motion)

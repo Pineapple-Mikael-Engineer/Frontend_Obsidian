@@ -9,6 +9,7 @@ tags:
   - api/operador
   - funcional
 draft: false
+order: 1
 ---
 
 # Spread Operator `...`

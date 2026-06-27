@@ -14,6 +14,7 @@ retorna: el operando izquierdo si no es nullish, el derecho si lo es
 muta: false
 asincrono: false
 draft: false
+order: 7
 ---
 
 # Nullish Coalescing `??`

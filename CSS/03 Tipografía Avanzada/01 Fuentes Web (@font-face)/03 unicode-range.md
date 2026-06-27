@@ -12,6 +12,7 @@ valor_inicial: "U+0-10FFFF"
 hereda: false
 animable: false
 draft: false
+order: 3
 ---
 
 # unicode-range

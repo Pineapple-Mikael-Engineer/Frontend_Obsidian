@@ -11,6 +11,7 @@ tags:
 objeto: Promise
 tipo: concepto
 draft: false
+order: 1
 ---
 
 # Estados de una Promise

@@ -12,6 +12,7 @@ valor_inicial: all
 hereda: false
 animable: false
 draft: false
+order: 1
 ---
 
 # transition-property

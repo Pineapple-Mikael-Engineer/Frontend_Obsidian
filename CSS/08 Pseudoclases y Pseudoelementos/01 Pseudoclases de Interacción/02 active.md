@@ -9,6 +9,7 @@ tags:
 propiedad: ":active"
 grupo: pseudoclase
 draft: false
+order: 2
 ---
 
 # :active

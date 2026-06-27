@@ -12,6 +12,7 @@ valor_inicial: start
 hereda: true
 animable: false
 draft: false
+order: 8
 ---
 
 # text-align

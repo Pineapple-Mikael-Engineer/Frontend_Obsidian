@@ -11,6 +11,7 @@ categoria: interactivo
 rol_implicito: textbox
 vacio: true
 draft: false
+order: 1
 ---
 
 # Campos de Entrada (input)

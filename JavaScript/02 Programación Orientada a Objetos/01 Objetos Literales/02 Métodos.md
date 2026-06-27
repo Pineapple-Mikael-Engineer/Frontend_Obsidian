@@ -12,6 +12,7 @@ objeto: Object
 tipo: concepto
 muta: false
 draft: false
+order: 2
 ---
 
 # Métodos

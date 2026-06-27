@@ -14,6 +14,7 @@ retorna: Promise
 muta: false
 asincrono: true
 draft: false
+order: 9
 ---
 
 # Promise.race

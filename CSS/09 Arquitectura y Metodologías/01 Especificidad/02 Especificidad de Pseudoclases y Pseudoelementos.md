@@ -8,6 +8,7 @@ tags:
   - api/concepto
   - arquitectura
 draft: false
+order: 2
 ---
 
 # Especificidad de Pseudoclases y Pseudoelementos

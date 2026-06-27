@@ -12,6 +12,7 @@ valor_inicial: row
 hereda: false
 animable: false
 draft: false
+order: 2
 ---
 
 # flex-direction

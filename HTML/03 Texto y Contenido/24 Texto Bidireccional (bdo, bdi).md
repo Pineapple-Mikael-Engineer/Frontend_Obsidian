@@ -13,6 +13,7 @@ categoria: fraseo
 rol_implicito: ninguno
 vacio: false
 draft: false
+order: 24
 ---
 
 # Texto Bidireccional (bdo, bdi)

@@ -15,6 +15,7 @@ retorna: boolean
 muta: false
 asincrono: false
 draft: false
+order: 3
 ---
 
 # Operadores de Comparación

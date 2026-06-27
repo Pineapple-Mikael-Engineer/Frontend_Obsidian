@@ -14,6 +14,7 @@ retorna: Promise<Response>
 muta: false
 asincrono: true
 draft: false
+order: 1
 ---
 
 # Sintaxis Básica de `fetch`

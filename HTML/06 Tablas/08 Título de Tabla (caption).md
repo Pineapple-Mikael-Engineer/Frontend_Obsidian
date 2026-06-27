@@ -12,6 +12,7 @@ categoria: ninguna
 rol_implicito: caption
 vacio: false
 draft: false
+order: 8
 ---
 
 # Título de Tabla (caption)

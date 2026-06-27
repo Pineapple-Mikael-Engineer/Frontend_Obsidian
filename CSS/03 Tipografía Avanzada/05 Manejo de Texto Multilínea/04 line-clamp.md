@@ -13,6 +13,7 @@ valor_inicial: none
 hereda: false
 animable: false
 draft: false
+order: 4
 ---
 
 # line-clamp

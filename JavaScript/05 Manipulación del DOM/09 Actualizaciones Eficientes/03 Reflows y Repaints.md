@@ -10,6 +10,7 @@ tags:
   - api/concepto
   - dom
 draft: false
+order: 3
 ---
 
 # Reflows y Repaints

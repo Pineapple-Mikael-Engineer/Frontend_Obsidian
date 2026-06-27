@@ -12,6 +12,7 @@ valor_inicial: auto
 hereda: true
 animable: false
 draft: false
+order: 6
 ---
 
 # text-rendering

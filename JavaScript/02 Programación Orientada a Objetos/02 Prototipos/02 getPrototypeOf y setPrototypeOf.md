@@ -15,6 +15,7 @@ retorna: object | null
 muta: true
 asincrono: false
 draft: false
+order: 2
 ---
 
 # `Object.getPrototypeOf` / `Object.setPrototypeOf`

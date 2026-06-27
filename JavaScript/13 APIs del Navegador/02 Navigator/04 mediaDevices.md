@@ -11,6 +11,7 @@ tags:
   - api/objeto
   - browser
 draft: false
+order: 4
 ---
 
 # `navigator.mediaDevices`

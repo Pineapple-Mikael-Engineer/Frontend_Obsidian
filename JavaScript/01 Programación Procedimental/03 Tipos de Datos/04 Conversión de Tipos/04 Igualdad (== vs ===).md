@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - tipos
 draft: false
+order: 4
 ---
 
 # Igualdad (== vs ===)

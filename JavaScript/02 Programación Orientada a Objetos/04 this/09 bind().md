@@ -16,6 +16,7 @@ retorna: Function
 muta: false
 asincrono: false
 draft: false
+order: 9
 ---
 
 # `Function.prototype.bind()`

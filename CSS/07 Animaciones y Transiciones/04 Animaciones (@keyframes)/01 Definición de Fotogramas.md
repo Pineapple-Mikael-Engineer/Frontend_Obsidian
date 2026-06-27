@@ -7,6 +7,7 @@ tags:
   - api/concepto
   - animacion
 draft: false
+order: 1
 ---
 
 # Definición de Fotogramas

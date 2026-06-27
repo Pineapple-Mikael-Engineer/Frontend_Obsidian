@@ -9,6 +9,7 @@ tags:
 propiedad: "::selection"
 grupo: pseudoelemento
 draft: false
+order: 5
 ---
 
 # ::selection

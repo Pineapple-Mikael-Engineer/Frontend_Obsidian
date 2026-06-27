@@ -13,6 +13,7 @@ valor_inicial: ease
 hereda: false
 animable: false
 draft: false
+order: 3
 ---
 
 # animation-timing-function y delay

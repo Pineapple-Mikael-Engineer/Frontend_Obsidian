@@ -13,6 +13,7 @@ valor_inicial: auto
 hereda: false
 animable: false
 draft: false
+order: 2
 ---
 
 # view-timeline

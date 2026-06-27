@@ -8,6 +8,7 @@ tags:
   - arquitectura
 selector: descendente
 draft: false
+order: 1
 ---
 
 # Combinador Descendente

@@ -11,6 +11,7 @@ tags:
 objeto: WeakMap
 tipo: clase
 draft: false
+order: 4
 ---
 
 # WeakMap y WeakSet

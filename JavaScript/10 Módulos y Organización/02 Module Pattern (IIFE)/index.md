@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - modulos
 draft: false
+order: 2
 ---
 
 # Module Pattern (IIFE)

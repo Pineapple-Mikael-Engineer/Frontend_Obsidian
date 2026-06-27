@@ -13,6 +13,7 @@ categoria: ninguna
 rol_implicito: ninguno
 vacio: false
 draft: false
+order: 6
 ---
 
 # Agrupación de Columnas (colgroup, col)

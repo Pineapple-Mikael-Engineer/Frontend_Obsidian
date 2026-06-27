@@ -9,6 +9,7 @@ tags:
   - api/concepto
   - dom
 draft: false
+order: 5
 ---
 
 # Manipulación del DOM

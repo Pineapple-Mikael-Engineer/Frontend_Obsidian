@@ -11,6 +11,7 @@ categoria: metadatos
 rol_implicito: ninguno
 vacio: true
 draft: false
+order: 6
 ---
 
 # Autor (meta author)

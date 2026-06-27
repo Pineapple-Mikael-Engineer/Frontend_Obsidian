@@ -10,6 +10,7 @@ tags:
   - api/concepto
   - funcional
 draft: false
+order: 1
 ---
 
 # Sintaxis y Return Implícito

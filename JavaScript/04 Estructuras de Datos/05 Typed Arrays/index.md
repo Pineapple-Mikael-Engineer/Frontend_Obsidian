@@ -11,6 +11,7 @@ tags:
 objeto: TypedArray
 tipo: clase
 draft: false
+order: 5
 ---
 
 # Typed Arrays

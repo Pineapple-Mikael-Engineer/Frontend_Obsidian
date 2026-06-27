@@ -13,6 +13,7 @@ retorna: string | undefined
 muta: false
 asincrono: false
 draft: false
+order: 2
 ---
 
 # `JSON.stringify` — serializar a texto JSON
