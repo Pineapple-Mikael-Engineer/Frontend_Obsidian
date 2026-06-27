@@ -55,6 +55,6 @@ Las diez secciones forman una progresión deliberada de lo fundamental a lo sist
 - [[05 Layout y Posicionamiento/index|Layout y Posicionamiento]]
 - [[06 Diseño Responsivo/index|Diseño Responsivo]]
 - [[07 Animaciones y Transiciones/index|Animaciones y Transiciones]]
-- [[08 Pseudoclases y Pseudoelementos|Pseudoclases y Pseudoelementos]]
+- [[08 Pseudoclases y Pseudoelementos/index|Pseudoclases y Pseudoelementos]]
 - [[09 Arquitectura y Metodologías/index|Arquitectura y Metodologías]]
 - [[10 Variables CSS/index|Variables CSS]]
