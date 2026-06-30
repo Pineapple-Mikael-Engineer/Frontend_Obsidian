@@ -1,5 +1,5 @@
 ---
-title: 09 Almacenamiento en Cliente — visión general
+title: Almacenamiento en Cliente — visión general
 aliases:
   - Almacenamiento en Cliente
   - Client Storage
